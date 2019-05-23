@@ -16,16 +16,16 @@ body {
 	margin-right: 65px;
 }
 
+#mainNavbar .nav-item {
+	padding: 0 25px;
+}
+
 #mainNavbar .nav-link {
 	color: black;
-	margin-right: 45px;
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
 
 #mainNavbar #bold-link {
 	font-weight: 400;
-	margin-right: 400px;
 }
 
 .landingDiv {
@@ -59,8 +59,8 @@ body {
 .descriptionText {
 	font-size: 1.1rem;
 	text-align: left;
-	padding-left: 95px;
-	padding-right: 80px;
+	margin: auto;
+	width: 896px;
 }
 
 #destination {
@@ -69,16 +69,11 @@ body {
 }
 
 #destination .descriptionText {
-	padding-left: 95px;
-	padding-right: 80px;
 	padding-bottom: 85px;
 }
 
 #destination img {
-	width: 87.5%;
-	height: 53%;
-	margin-left: 65px;
-	margin-right: 65px;
+	width: 896px;
 	padding-bottom: 85px;
 }
 
@@ -101,8 +96,8 @@ body {
 #mountainText {
 	font-size: 1.6rem;
 	text-align: left;
-	padding-left: 65px;
-	padding-right: 65px;
+	margin: auto;
+	width: 896px;
 }
 
 .btn {
@@ -120,9 +115,19 @@ body {
 	margin-top: 65px;
 }
 
+#rental .descriptionText {
+	margin: auto;
+	background: #f5f6f6;
+	width: 896px;
+	height: 576px;
+}
+
 #rental img {
 	float: left;
 	width: 483px;
 	height: 483px;
 	margin-right: 65px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	margin-left: 30px;
 }
