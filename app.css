@@ -2,12 +2,12 @@ body {
 	color: white;
 	font-family: Josefin Sans;
 	font-weight: lighter;
-	width:1024px;
+	width: 1024px;
 	margin: auto;
 }
 
 h1 {
-	font-size:30px;
+	font-size: 30px;
 }
 
 #mainNavbar {
@@ -35,19 +35,22 @@ h1 {
 	font-weight: 400;
 }
 
-.landingDiv {
-	background: url("images/deer-background.png");
+.fullBackground {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.landingDiv {
+	background: url("images/deer-background.png");
 	width: 100%;
-	height: 708px;
+	height: 770px; /* 710-img + 60-navbar */
 }
 
 #centerDiv {
 	position: relative;
 	text-align: center;
-	padding-top: 320px;
+	padding-top: 350px;
 }
 
 .descriptionDiv {
@@ -60,7 +63,7 @@ h1 {
 }
 
 .descriptionTitle {
-	margin-bottom: 41px;
+	margin-bottom: 38px;
 	font-weight: 300;
 }
 
@@ -80,15 +83,12 @@ h1 {
 	padding-bottom: 85px;
 }
 
-#destination img {
+/* #destination img {
 	width: 896px;
-}
+} */
 
 #overview {
 	background: url("images/mountain-overview.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	width: 100%;
 	height: 538px;
 }
@@ -126,11 +126,16 @@ h1 {
 
 #rental .descriptionText {
 	margin: auto;
-	background: #f5f6f6;
-	background-image: url ("images/deer-background.png")
+	background-color: #f5f6f6;
+	background-image: url("images/pattern-rental.png");
+	background-repeat: no-repeat;
 	width: 896px;
 	height: 576px;
 	padding: 45px 65px 45px 30px;
+}
+
+#rental {
+	padding-bottom: 0;
 }
 
 #rental img {
@@ -143,4 +148,35 @@ h1 {
 #rental p {
 	text-align: justify;
 	font-size: 13.5px;
+}
+
+#restaurant {
+	padding-bottom: 45px;
+}
+
+#restaurant p {
+	text-align: center;
+}
+
+.bar img {
+	width: 100%;
+}
+
+.bar p {
+	position: absolute;
+	color: white;
+	font-size: 25px;
+	font-weight: 400;
+	bottom: 65px;
+	left: 65px;
+}
+
+#spa .descriptionTitle {
+	background: #13322b;
+	color: white;
+	height: 65px;
+	padding: 20px;
+	width: 896px;
+	margin: auto;
+	margin-bottom: 10px;
 }
