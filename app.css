@@ -7,32 +7,41 @@ body {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 }
 
 #mainNavbar {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 300;
 	background: white;
 	padding: 7px 0;
-	margin: 0 auto;
+	width: 1024px;
+	margin: auto;
 }
 
 #mainNavbar .navbar-brand {
 	margin-left: 45px;
-	margin-right: 42.5px;
-}
-
-#mainNavbar .nav-item {
-	padding: 0 22.5px;
+	margin-right: 23px;
 }
 
 #mainNavbar .nav-link {
 	color: black;
+	padding: 0 22px;
 }
 
 #mainNavbar #bold-link {
 	font-weight: 400;
+	padding-right: 140px;
+}
+
+.nav-item #book {
+	background: #babc33;
+	color: white;
+}
+
+.nav-item #reg {
+	background: #13322b;
+	color: white;
 }
 
 .fullBackground {
@@ -47,10 +56,11 @@ h1 {
 	height: 770px; /* 710-img + 60-navbar */
 }
 
-#centerDiv {
+.centerDiv {
 	position: relative;
 	text-align: center;
 	padding-top: 350px;
+	width: 100%;
 }
 
 .descriptionDiv {
@@ -64,15 +74,17 @@ h1 {
 
 .descriptionTitle {
 	margin-bottom: 38px;
+	font-size: 36px;
 	font-weight: 300;
 }
 
 .descriptionText {
 	font-size: 15.25px;
-	text-align: left;
-	margin: auto;
+	font-weight: 300;
 	width: 896px;
+	text-align: left;
 	text-align: justify;
+	margin: auto;
 }
 
 #destination {
@@ -83,32 +95,28 @@ h1 {
 	padding-bottom: 85px;
 }
 
-/* #destination img {
-	width: 896px;
-} */
-
 #overview {
 	background: url("images/mountain-overview.png");
 	width: 100%;
 	height: 538px;
 }
 
-#overview #centerDiv {
+#overview .centerDiv {
 	padding-top: 210px;
 }
 
-#overview #centerDiv h1 {
+.centerDiv h1 {
 	margin-bottom: 22px;
 }
 
-#mountainText {
+.mountainText {
 	font-size: 16px;
 	text-align: justify;
 	margin: auto;
 	width: 896px;
 }
 
-.btn {
+#overview .btn {
 	font-family: Niconne;
 	font-size: 20px;
 	border-radius: 0;
@@ -154,7 +162,8 @@ h1 {
 	padding-bottom: 45px;
 }
 
-#restaurant p {
+#restaurant p,
+#contact p {
 	text-align: center;
 }
 
@@ -162,13 +171,23 @@ h1 {
 	width: 100%;
 }
 
-.bar p {
+.bar a {
 	position: absolute;
 	color: white;
 	font-size: 25px;
 	font-weight: 400;
-	bottom: 65px;
+	bottom: 55px;
 	left: 65px;
+}
+
+.row {
+	margin: auto;
+}
+
+#spa {
+	width: 896px;
+	margin: auto;
+	padding-bottom: 65px;
 }
 
 #spa .descriptionTitle {
@@ -176,7 +195,128 @@ h1 {
 	color: white;
 	height: 65px;
 	padding: 20px;
-	width: 896px;
-	margin: auto;
 	margin-bottom: 10px;
+}
+
+#gallery {
+	position: relative;
+}
+
+#gallery .btn {
+	font-family: Niconne;
+	border-radius: 0;
+	font-size: 20px;
+	position: absolute;
+	right: 70px;
+	bottom: 25px;
+}
+
+#wall {
+	width: 645px;
+	height: 105px;
+	position: absolute;
+	bottom: -10px;
+	background: white;
+	left: 30px;
+	text-align: left;
+}
+
+#wall img {
+	margin: 40px 30px;
+	float: left;
+}
+
+#wall h1 {
+	font-size: 36.16px;
+	margin-top: 65px;
+	margin-bottom: 55px;
+}
+
+.twoCol {
+	width: 770px;
+	height: 265px;
+	color: black;
+	font-weight: 300;
+	font-size: 15.25px;
+}
+
+.twoCol p {
+	margin-bottom: 0;
+}
+
+#col1 {
+	width: 354px;
+	float: left;
+}
+
+#col2 {
+	width: 354px;
+	float: right;
+}
+
+#landscape {
+	position: relative;
+	background: url("images/landscape-xp.png");
+	width: 100%;
+	height: 806px;
+}
+
+#landscape .centerDiv {
+	position: absolute;
+	padding-top: 160px;
+	top: 5px;
+}
+
+#landscape .mountainText {
+	font-size: 15.7px;
+}
+
+#content {
+	width: 896px;
+	height: 100%;
+}
+
+#links {
+	margin-top: 60px;
+}
+
+#links .btn {
+	border-radius: 0;
+	border-width: 0;
+	font-size: 12px;
+	padding: 12px 12px;
+	margin-right: 15px;
+}
+
+#links a:hover {
+	text-decoration: none;
+	background: #babc33;
+}
+
+.whiteBar {
+	background: white;
+	width: 896px;
+	height: 85px;
+	position: absolute;
+	left: 65px;
+}
+
+#vertical {
+	height: 448px;
+	bottom: -85px;
+}
+
+#left {
+	border: 1px solid #e5e4e4;
+	padding: 55px;
+	height: 448px;
+}
+
+#left h1 {
+	font-family: Niconne;
+	margin-bottom: 35px;
+}
+
+#left p {
+	margin-bottom: 35px;
 }
