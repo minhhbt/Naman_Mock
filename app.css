@@ -194,7 +194,9 @@ body .cursiveFont {
 
 #mainContent #spa {
   width: 894px;
-  padding-bottom: 65px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0;
   margin: auto;
 }
 
@@ -210,60 +212,74 @@ body .cursiveFont {
   position: relative;
 }
 
+#mainContent #spa #gallery img {
+  width: 100%;
+}
+
 #mainContent #spa #gallery .btn {
   font-family: Niconne;
   position: absolute;
+  z-index: 1;
   right: 70px;
   bottom: 25px;
 }
 
-#mainContent #spa #gallery #wall {
-  background: white;
+#mainContent #spa .content-wrapper {
+  width: 100%;
+  margin-top: -95px;
+}
+
+#mainContent #spa .content {
+  padding: 0 30px;
+}
+
+#mainContent #spa .content-title {
   text-align: left;
-  width: 645px;
-  height: 105px;
-  position: absolute;
-  bottom: -10px;
-  left: 30px;
 }
 
-#mainContent #spa #gallery #wall img {
-  float: left;
-  margin-top: 39px;
-  margin-right: 21px;
-  margin-left: 30px;
+#mainContent #spa .content-title .title-wrap {
+  background-color: white;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#mainContent #spa #gallery #wall h1 {
-  font-size: 36.16px;
-  margin-top: 65px;
+#mainContent #spa .content-title img {
+  width: 90px;
+  height: 55px;
+  padding: 0 25px;
 }
 
-#mainContent #lifestyle {
-  color: black;
-  font-weight: 300;
-  width: 770px;
-  height: 265px;
+#mainContent #spa .content-title h1 {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
-#mainContent #lifestyle #col1 {
+#mainContent #spa .content-detail {
+  text-align: justify;
+  padding: 45px 0 60px 0;
+}
+
+#mainContent #spa .content-detail p {
+  font-size: 15.25px;
   width: 354px;
-  float: left;
 }
 
-#mainContent #lifestyle #col2 {
-  width: 354px;
-  float: right;
+#mainContent #spa .content-detail div {
+  padding: 0 30px;
 }
 
 #mainContent #exp {
   background: url("images/landscape-xp.png");
   height: 975px;
   position: relative;
+  margin-top: -85px;
 }
 
 #mainContent #exp .centerDiv {
-  padding-top: 160px;
+  padding-top: 165px;
 }
 
 #mainContent #exp #links {

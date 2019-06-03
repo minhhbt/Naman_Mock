@@ -166,7 +166,9 @@ body {
 	}
 	#spa {
 		width: 894px;
-		padding-bottom: 65px;
+		position: relative;
+		z-index: 1;
+		padding-bottom: 0;
 		margin: auto;
 		.descriptionTitle {
 			background: #13322b;
@@ -177,53 +179,61 @@ body {
 		}
 		#gallery {
 			position: relative;
+			img {
+				width: 100%;
+			}
 			.btn {
 				font-family: Niconne;
 				position: absolute;
+				z-index: 1;
 				right: 70px;
 				bottom: 25px;
 			}
-			#wall {
-				background: white;
-				text-align: left;
-				width: 645px;
-				height: 105px;
-				position: absolute;
-				bottom: -10px;
-				left: 30px;
-				img {
-					float: left;
-					margin-top: 39px;
-					margin-right: 21px;
-					margin-left: 30px;
-				}
-				h1 {
-					font-size: 36.16px;
-					margin-top: 65px;
-				}
+		}
+		.content-wrapper {
+			width: 100%;
+			margin-top: -95px;
+		}
+		.content {
+			padding: 0 30px;
+		}
+		.content-title {
+			text-align: left;
+		}
+		.content-title .title-wrap {
+			background-color: white;
+			padding-top: 40px;
+			display: flex;
+		}
+		.content-title img {
+			width: 90px;
+			height: 55px;
+			padding: 0 25px;
+		}
+		.content-title h1 {
+			display: inline-block;
+			margin-top: 20px;
+			margin-bottom: 0;
+		}
+		.content-detail {
+			text-align: justify;
+			padding: 45px 0 60px 0;
+			p {
+				font-size: 15.25px;
+				width: 354px;
 			}
 		}
-	}
-	#lifestyle {
-		color: black;
-		font-weight: 300;
-		width: 770px;
-		height: 265px;
-		#col1 {
-			width: 354px;
-			float: left;
-		}
-		#col2 {
-			width: 354px;
-			float: right;
+		.content-detail div {
+			padding: 0 30px;
 		}
 	}
 	#exp {
 		background: url("images/landscape-xp.png");
 		height: 975px;
 		position: relative;
+		margin-top: -85px;
 		.centerDiv {
-			padding-top: 160px;
+			padding-top: 165px;
 		}
 		#links {
 			margin-top: 65px;
@@ -289,7 +299,6 @@ body {
 				font-size: 20px;
 			}
 		}
-
 		#rightContact {
 			background: #13322b;
 			#social {
