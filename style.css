@@ -104,21 +104,6 @@ hr {
 	margin-bottom: 35px;
 }
 
-/* OVERALL IDs */
-#ownerBenefits,
-#rental,
-#developer,
-#contact {
-	padding-bottom: 0;
-}
-
-#restaurant p,
-#contact p,
-#scrollbar,
-#leftBox {
-	text-align: center;
-}
-
 /* NAVBAR */
 #mainNavbar {
 	font-size: 14px;
@@ -192,15 +177,26 @@ hr {
 }
 
 /* OWNER BENEFITS */
+#ownerBenefits {
+	padding-bottom: 0;
+}
+
 #ownerBenefits img {
 	margin-top: 45px;
 }
 
 /* RENTAL PROGRAM */
+#rental {
+	padding-bottom: 0;
+}
 
 /* RESTAURANT */
 #restaurant {
 	padding-bottom: 45px;
+}
+
+#restaurant p {
+	text-align: center;
 }
 
 /* BARS */
@@ -323,7 +319,15 @@ hr {
 	margin-bottom: 45px;
 }
 
+#scrollbar {
+	text-align: center;
+}
+
 /* DEVELOPER */
+#developer {
+	padding-bottom: 0;
+}
+
 #developer .boxTemplate {
 	height: 413px;
 }
@@ -333,7 +337,12 @@ hr {
 }
 
 /* CONTACT */
+#contact {
+	padding-bottom: 0;
+}
+
 #contact p {
+	text-align: center;
 	margin-bottom: 30px;
 }
 

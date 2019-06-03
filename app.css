@@ -1,0 +1,373 @@
+body {
+  color: white;
+  font-family: Josefin Sans;
+  font-weight: 300;
+  width: 1024px;
+  margin: auto;
+}
+
+body h1 {
+  font-size: 40px;
+  font-weight: 300px;
+}
+
+body hr {
+  margin-top: 170px;
+  margin-bottom: 0;
+}
+
+body .fullBackground {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+body .centerDiv {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+body .descriptionDiv {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 85px 0;
+}
+
+body .descriptionTitle {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 38px;
+}
+
+body .descriptionText {
+  font-size: 15.25px;
+  text-align: justify;
+  width: 894px;
+  margin: auto;
+}
+
+body .btn {
+  font-family: Niconne;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+body .boxTemplate {
+  background-color: #f5f6f6;
+  background-image: url("images/pattern-rental.png");
+  background-repeat: no-repeat;
+  width: 894px;
+  height: 576px;
+  padding: 45px 65px 45px 30px;
+  margin: auto;
+}
+
+body .imgTemplate {
+  float: left;
+  width: 483px;
+  height: 483px;
+  margin-right: 65px;
+}
+
+body .pTemplate {
+  font-size: 13.5px;
+  text-align: justify;
+}
+
+body .row {
+  margin: auto;
+}
+
+body .barText {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 55px;
+  left: 65px;
+}
+
+body .whiteBar {
+  background: white;
+  width: 894px;
+  height: 85px;
+  position: absolute;
+  left: 65px;
+}
+
+body .cursiveFont {
+  font-family: Niconne;
+  margin-bottom: 35px;
+}
+
+#mainNavbar {
+  background: white;
+  font-size: 14px;
+  width: 1024px;
+  height: 60px;
+  padding: 7px 0;
+  margin: auto;
+}
+
+#mainNavbar .navbar-brand {
+  padding: auto;
+  padding-left: 45px;
+  padding-right: 5px;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+  height: 60px;
+  padding: 25px 22px;
+}
+
+#mainNavbar .nav-item #bold-link {
+  font-weight: 400;
+  padding-right: 149px;
+}
+
+#mainNavbar .nav-item #book {
+  background: #babc33;
+  color: white;
+  font-weight: 400;
+}
+
+#mainNavbar .nav-item #reg {
+  background: #13322b;
+  color: white;
+  font-weight: 400;
+}
+
+#mainContent #landingDiv {
+  background: url("images/deer-background.png");
+  height: 770px;
+}
+
+#mainContent #landingDiv .centerDiv {
+  padding-top: 348px;
+}
+
+#mainContent #destination {
+  background: #f5f6f6;
+}
+
+#mainContent #destination .descriptionText {
+  padding-bottom: 65px;
+}
+
+#mainContent #overview {
+  background: url("images/mountain-overview.png");
+  height: 538px;
+}
+
+#mainContent #overview .centerDiv {
+  padding-top: 210px;
+}
+
+#mainContent #overview .btn {
+  margin-top: 65px;
+}
+
+#mainContent #ownerBenefits {
+  padding-bottom: 0;
+}
+
+#mainContent #ownerBenefits img {
+  margin-top: 45px;
+  padding-bottom: 0;
+}
+
+#mainContent #rental {
+  padding-bottom: 0;
+}
+
+#mainContent #restaurant {
+  padding-bottom: 45px;
+}
+
+#mainContent #restaurant p {
+  text-align: center;
+}
+
+#mainContent #spa {
+  width: 894px;
+  padding-bottom: 65px;
+  margin: auto;
+}
+
+#mainContent #spa .descriptionTitle {
+  background: #13322b;
+  color: white;
+  height: 65px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#mainContent #spa #gallery {
+  position: relative;
+}
+
+#mainContent #spa #gallery .btn {
+  font-family: Niconne;
+  position: absolute;
+  right: 70px;
+  bottom: 25px;
+}
+
+#mainContent #spa #gallery #wall {
+  background: white;
+  text-align: left;
+  width: 645px;
+  height: 105px;
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+}
+
+#mainContent #spa #gallery #wall img {
+  float: left;
+  margin-top: 39px;
+  margin-right: 21px;
+  margin-left: 30px;
+}
+
+#mainContent #spa #gallery #wall h1 {
+  font-size: 36.16px;
+  margin-top: 65px;
+}
+
+#mainContent #lifestyle {
+  color: black;
+  font-weight: 300;
+  width: 770px;
+  height: 265px;
+}
+
+#mainContent #lifestyle #col1 {
+  width: 354px;
+  float: left;
+}
+
+#mainContent #lifestyle #col2 {
+  width: 354px;
+  float: right;
+}
+
+#mainContent #exp {
+  background: url("images/landscape-xp.png");
+  height: 975px;
+  position: relative;
+}
+
+#mainContent #exp .centerDiv {
+  padding-top: 160px;
+}
+
+#mainContent #exp #links {
+  margin-top: 65px;
+}
+
+#mainContent #exp #links a:hover {
+  background: #babc33;
+  text-decoration: none;
+}
+
+#mainContent #exp #links .btn {
+  font-family: Josefin Sans;
+  font-size: 12px;
+  border-width: 0;
+  padding: 12px;
+  margin-right: 15px;
+}
+
+#mainContent #exp #sport {
+  height: 448px;
+  bottom: -85px;
+}
+
+#mainContent #exp #sport #sportContent {
+  border: 1px solid #e5e4e4;
+  height: 448px;
+  padding: 65px;
+}
+
+#mainContent #exp #sport #sportContent p {
+  margin-bottom: 40px;
+}
+
+#mainContent #exp #sport #sportContent #scrollbar {
+  text-align: center;
+}
+
+#mainContent #developer {
+  padding-bottom: 0;
+}
+
+#mainContent #developer .boxTemplate {
+  height: 413px;
+}
+
+#mainContent #developer .cursiveFont {
+  margin-bottom: 20px;
+}
+
+#mainContent #contact {
+  padding-bottom: 0;
+}
+
+#mainContent #contact p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#mainContent #contact #info {
+  color: white;
+  width: 100%;
+  height: 705px;
+  position: absolute;
+  top: 0px;
+}
+
+#mainContent #contact #info img {
+  margin: 65px auto;
+}
+
+#mainContent #contact #info h1 {
+  font-size: 32px;
+}
+
+#mainContent #contact #info p {
+  margin-bottom: 20px;
+}
+
+#mainContent #contact #info #email {
+  font-size: 20px;
+}
+
+#mainContent #contact #rightContact {
+  background: #13322b;
+}
+
+#mainContent #contact #rightContact #social {
+  color: white;
+  width: 100%;
+  height: 148px;
+  position: absolute;
+  bottom: 0px;
+}
+
+#mainContent #contact #rightContact #social p {
+  margin-bottom: 0;
+}
+
+#mainContent #contact #rightContact #social #iconBar {
+  margin: 40px auto;
+}
+
+#mainContent #contact #rightContact #social #iconBar a {
+  margin: 0px 22.5px;
+}
+/*# sourceMappingURL=app.css.map */

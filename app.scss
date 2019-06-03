@@ -12,39 +12,6 @@ body {
 		margin-top: 170px;
 		margin-bottom: 0;
 	}
-	#mainNavbar {
-		font-size: 14px;
-		background: white;
-		width: 1024px;
-		padding: 7px 0;
-		margin: auto;
-		.navbar-brand {
-			padding: auto;
-			padding-left: 45px;
-			padding-right: 5px;
-		}
-		.nav-item {
-			#bold-link {
-				font-weight: 400;
-				padding-right: 149px;
-				.nav-link {
-					color: black;
-					height: 60px;
-					padding: 25px 22px;
-				}
-			}
-			#book {
-				color: white;
-				font-weight: 400;
-				background: #babc33;
-			}
-			#reg {
-				color: white;
-				font-weight: 400;
-				background: #13322b;
-			}
-		}
-	}
 	.fullBackground {
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -56,18 +23,11 @@ body {
 		width: 100%;
 		position: relative;
 	}
-	#landingDiv {
-		background: url("images/deer-background.png");
-		height: 770px;
-		.centerDiv {
-			padding-top: 348px;
-		}
-	}
 	.descriptionDiv {
+		background: white;
 		color: black;
 		text-align: center;
-		background: white;
-		padding: 85px 0px;
+		padding: 85px 0;
 	}
 	.descriptionTitle {
 		font-size: 36px;
@@ -76,19 +36,6 @@ body {
 	}
 	.descriptionText {
 		font-size: 15.25px;
-		width: 894px;
-		text-align: left;
-		text-align: justify;
-		margin: auto;
-	}
-	#destination {
-		background: #f5f6f6;
-		.descriptionText {
-			padding-bottom: 65px;
-		}
-	}
-	.landscapeText {
-		font-size: 16px;
 		text-align: justify;
 		width: 894px;
 		margin: auto;
@@ -98,18 +45,14 @@ body {
 		font-size: 20px;
 		border-radius: 0;
 	}
-	#overview {
-		background: url("images/mountain-overview.png");
-		height: 538px;
-		.centerDiv {
-			padding-top: 210px;
-		}
-		.btn {
-			margin-top: 65px;
-		}
-	}
-	#ownerBenefits img {
-		margin-top: 45px;
+	.boxTemplate {
+		background-color: #f5f6f6;
+		background-image: url("images/pattern-rental.png");
+		background-repeat: no-repeat;
+		width: 894px;
+		height: 576px;
+		padding: 45px 65px 45px 30px;
+		margin: auto;
 	}
 	.imgTemplate {
 		float: left;
@@ -121,18 +64,104 @@ body {
 		font-size: 13.5px;
 		text-align: justify;
 	}
+	.row {
+		margin: auto;
+	}
+	.barText {
+		color: white;
+		font-size: 36px;
+		font-weight: 400;
+		position: absolute;
+		bottom: 55px;
+		left: 65px;
+	}
+	.whiteBar {
+		background: white;
+		width: 894px;
+		height: 85px;
+		position: absolute;
+		left: 65px;
+	}
+	.cursiveFont {
+		font-family: Niconne;
+		margin-bottom: 35px;
+	}
+}
+#mainNavbar {
+	background: white;
+	font-size: 14px;
+	width: 1024px;
+	height: 60px;
+	padding: 7px 0;
+	margin: auto;
+	.navbar-brand {
+		padding: auto;
+		padding-left: 45px;
+		padding-right: 5px;
+	}
+
+	.nav-link {
+		color: black;
+		height: 60px;
+		padding: 25px 22px;
+	}
+	.nav-item {
+		#bold-link {
+			font-weight: 400;
+			padding-right: 149px;
+		}
+		#book {
+			background: #babc33;
+			color: white;
+			font-weight: 400;
+		}
+		#reg {
+			background: #13322b;
+			color: white;
+			font-weight: 400;
+		}
+	}
+}
+#mainContent {
+	#landingDiv {
+		background: url("images/deer-background.png");
+		height: 770px;
+		.centerDiv {
+			padding-top: 348px;
+		}
+	}
+	#destination {
+		background: #f5f6f6;
+
+		.descriptionText {
+			padding-bottom: 65px;
+		}
+	}
+	#overview {
+		background: url("images/mountain-overview.png");
+		height: 538px;
+		.centerDiv {
+			padding-top: 210px;
+		}
+		.btn {
+			margin-top: 65px;
+		}
+	}
+	#ownerBenefits {
+		padding-bottom: 0;
+
+		img {
+			margin-top: 45px;
+			padding-bottom: 0;
+		}
+	}
+	#rental {
+		padding-bottom: 0;
+	}
 	#restaurant {
 		padding-bottom: 45px;
-	}
-	.row {
-		margin: auto; /* IMPORTANT */
-		.bar a {
-			font-size: 36px;
-			font-weight: 400;
-			color: white;
-			position: absolute;
-			bottom: 55px;
-			left: 65px;
+		p {
+			text-align: center;
 		}
 	}
 	#spa {
@@ -177,7 +206,6 @@ body {
 	}
 	#lifestyle {
 		color: black;
-		font-size: 15.25px;
 		font-weight: 300;
 		width: 770px;
 		height: 265px;
@@ -189,13 +217,6 @@ body {
 			width: 354px;
 			float: right;
 		}
-	}
-	.whiteBar {
-		background: white;
-		width: 894px;
-		height: 85px;
-		position: absolute;
-		left: 65px;
 	}
 	#exp {
 		background: url("images/landscape-xp.png");
@@ -226,7 +247,7 @@ body {
 				height: 448px;
 				padding: 65px;
 				p {
-					margin-bottom: 45px;
+					margin-bottom: 40px;
 				}
 				#scrollbar {
 					text-align: center;
@@ -246,6 +267,7 @@ body {
 	#contact {
 		padding-bottom: 0;
 		p {
+			text-align: center;
 			margin-bottom: 30px;
 		}
 		#info {
@@ -267,6 +289,7 @@ body {
 				font-size: 20px;
 			}
 		}
+
 		#rightContact {
 			background: #13322b;
 			#social {
