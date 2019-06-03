@@ -104,41 +104,63 @@ body .cursiveFont {
 }
 
 #mainNavbar {
-  background: white;
   font-size: 14px;
+  background: white;
   width: 1024px;
   height: 60px;
-  padding: 7px 0;
-  margin: auto;
+  padding: 0;
+  margin: 0 auto;
 }
 
-#mainNavbar .navbar-brand {
-  padding: auto;
-  padding-left: 45px;
-  padding-right: 5px;
+#mainNavbar .navbar-brand img {
+  margin: 0 65px 0 45px;
 }
 
 #mainNavbar .nav-link {
   color: black;
+  padding: 0;
+}
+
+#mainNavbar .leftLinks li {
+  margin-right: 45px;
+}
+
+#mainNavbar .rightLinks {
   height: 60px;
-  padding: 25px 22px;
 }
 
-#mainNavbar .nav-item #bold-link {
+#mainNavbar #namanRes {
   font-weight: 400;
-  padding-right: 149px;
+  margin-right: 0;
 }
 
-#mainNavbar .nav-item #book {
+#mainNavbar #en a {
+  text-align: center;
+  padding: 0 35px;
+  line-height: 60px;
+}
+
+#mainNavbar #bookNow {
+  font-weight: 400;
   background: #babc33;
-  color: white;
-  font-weight: 400;
 }
 
-#mainNavbar .nav-item #reg {
-  background: #13322b;
+#mainNavbar #bookNow a {
   color: white;
+  padding: 0 12px;
+  line-height: 60px;
+}
+
+#mainNavbar #registration {
   font-weight: 400;
+  background: #13322b;
+}
+
+#mainNavbar #registration a {
+  color: white;
+  text-align: center;
+  padding: 0 25px;
+  line-height: 60px;
 }
 
 #mainContent #landingDiv {

@@ -88,37 +88,57 @@ body {
 	}
 }
 #mainNavbar {
-	background: white;
 	font-size: 14px;
+	background: white;
 	width: 1024px;
 	height: 60px;
-	padding: 7px 0;
-	margin: auto;
+	padding: 0;
+	margin: 0 auto;
 	.navbar-brand {
-		padding: auto;
-		padding-left: 45px;
-		padding-right: 5px;
+		img {
+			margin: 0 65px 0 45px;
+		}
 	}
-
 	.nav-link {
 		color: black;
-		height: 60px;
-		padding: 25px 22px;
+		padding: 0;
 	}
-	.nav-item {
-		#bold-link {
-			font-weight: 400;
-			padding-right: 149px;
+	.leftLinks {
+		li {
+			margin-right: 45px;
 		}
-		#book {
-			background: #babc33;
-			color: white;
-			font-weight: 400;
+	}
+	.rightLinks {
+		height: 60px;
+	}
+	#namanRes {
+		font-weight: 400;
+		margin-right: 0;
+	}
+	#en {
+		a {
+			text-align: center;
+			padding: 0 35px;
+			line-height: 60px;
 		}
-		#reg {
-			background: #13322b;
+	}
+	#bookNow {
+		font-weight: 400;
+		background: #babc33;
+		a {
 			color: white;
-			font-weight: 400;
+			padding: 0 12px;
+			line-height: 60px;
+		}
+	}
+	#registration {
+		font-weight: 400;
+		background: #13322b;
+		a {
+			color: white;
+			text-align: center;
+			padding: 0 25px;
+			line-height: 60px;
 		}
 	}
 }

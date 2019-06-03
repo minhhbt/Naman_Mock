@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Niconne&display=swap" rel="stylesheet">
 
@@ -15,15 +17,17 @@
 <body>
   
 <!-- NAVBAR -->
-<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top"> 
-  <a href="#" class="navbar-brand">
-    <img src="images/logo.png" alt="">
-  </a> 
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navLinks">
-    <ul class="navbar-nav">
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+  <div class="mx-auto order-0">
+    <a href="#" class="navbar-brand mx-auto">
+      <img src="images/logo.png" alt="">
+    </a> 
+    <button class="navbar-toggler" data-toggle="collapse" data-target=".dual-collapse2" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <div class="collapse navbar-collapse order-1 order-md-0 dual-collapse2">
+    <ul class="navbar-nav mr-auto leftLinks">
       <li class="nav-item">
         <a href="" class="nav-link">Home</a>
       </li>
@@ -33,17 +37,21 @@
       <li class="nav-item">
         <a href="" class="nav-link">Naman Retreat</a>
       </li>
-      <li class="nav-item">
-        <a href="" id="bold-link" class="nav-link">Naman Residences</a>
+      <li class="nav-item" id="namanRes">
+        <a href="" class="nav-link">Naman Residences</a>
       </li>
-      <li class="nav-item">
-        <a href="" class="nav-link" id="en">EN</a>
+    </ul>
+  </div>
+  <div class="navbar-collapse collapse order-3 dual-collapse2">
+    <ul class="nav navbar-nav ml-auto rightLinks">
+      <li class="nav-item" id="en">
+        <a href="" class="nav-link">EN</a>
       </li>
-      <li class="nav-item">
-        <a href="" class="nav-link" id="book">Book now</a>
+      <li class="nav-item" id="bookNow">
+        <a href="" class="nav-link">Book now</a>
       </li>
-      <li class="nav-item">
-        <a href="" class="nav-link" id="reg">Registration</a>
+      <li class="nav-item" id="registration">
+        <a href="" class="nav-link">Registration</a>
       </li>
     </ul>
   </div>
