@@ -1,400 +1,432 @@
 body {
-	color: white;
-	font-family: Josefin Sans;
-	font-weight: lighter;
-	width: 1024px;
-	margin: auto;
+  font-family: Josefin Sans;
+  font-weight: 300;
+  color: white;
+  width: 1024px;
+  margin: auto;
 }
 
-h1 {
-	font-size: 40px;
+body h1 {
+  font-size: 40px;
+  font-weight: 300px;
 }
 
-hr {
-	margin-top: 170px;
-	margin-bottom: 0;
+body hr {
+  margin: 170px auto 0 auto;
+}
+
+body .fullBackground {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+body .centerDiv {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+body .descriptionDiv {
+  color: black;
+  text-align: center;
+  background: white;
+  padding: 85px 0;
+}
+
+body .descriptionTitle {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 38px;
+}
+
+body .descriptionText {
+  font-size: 15.25px;
+  text-align: justify;
+  width: 894px;
+  margin: auto;
+}
+
+body .btn {
+  font-family: Niconne;
+  font-size: 20px;
+  border-radius: 0;
+}
+
+body .boxTemplate {
+  background-color: #f5f6f6;
+  background-image: url("images/pattern-rental.png");
+  background-repeat: no-repeat;
+  width: 894px;
+  height: 576px;
+  padding: 45px 65px 45px 30px;
+  margin: auto;
+}
+
+body .imgTemplate {
+  float: left;
+  width: 483px;
+  height: 483px;
+  margin-right: 65px;
+}
+
+body .pTemplate {
+  font-size: 13.5px;
+  text-align: justify;
+}
+
+body .row {
+  margin: auto;
+}
+
+body .barText {
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 55px;
+  left: 65px;
+}
+
+body .whiteBar {
+  background: white;
+  width: 894px;
+  height: 85px;
+  position: absolute;
+  left: 65px;
+}
+
+body .cursiveFont {
+  font-family: Niconne;
+  margin-bottom: 35px;
 }
 
 #mainNavbar {
-	font-size: 14px;
-	font-weight: 300;
-	background: white;
-	padding: 7px 0;
-	width: 1024px;
-	margin: auto;
+  font-size: 14px;
+  background: white;
+  width: 1024px;
+  height: 60px;
+  padding: 0;
+  margin: 0 auto;
 }
 
-#mainNavbar .navbar-brand {
-	margin-left: 45px;
-	margin-right: 23px;
+#mainNavbar .navbar-brand img {
+  margin: 0 65px 0 45px;
 }
 
 #mainNavbar .nav-link {
-	color: black;
-	padding: 0 22px;
+  color: black;
+  padding: 0;
 }
 
-#mainNavbar #bold-link {
-	/*Make class*/
-	font-weight: 400;
-	padding-right: 140px;
+#mainNavbar .leftLinks li {
+  margin-right: 45px;
 }
 
-.nav-item #book {
-	background: #babc33;
-	color: white;
-	font-weight: 400;
+#mainNavbar .rightLinks {
+  height: 60px;
+  font-weight: 400;
 }
 
-.nav-item #reg {
-	background: #13322b;
-	color: white;
-	font-weight: 400;
+#mainNavbar .rightLinks a {
+  color: white;
+  text-align: center;
+  line-height: 60px;
 }
 
-.fullBackground {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+#mainNavbar #namanRes {
+  font-weight: 400;
+  margin-right: 0;
 }
 
-.landingDiv {
-	background: url("images/deer-background.png");
-	width: 100%;
-	height: 770px; /* 710-img + 60-navbar */
+#mainNavbar #en a {
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  padding: 0 35px;
 }
 
-.centerDiv {
-	position: relative;
-	text-align: center;
-	padding-top: 350px;
-	width: 100%;
+#mainNavbar #bookNow {
+  background: #babc33;
 }
 
-.descriptionDiv {
-	background: white;
-	color: black;
-	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	font-weight: 300;
+#mainNavbar #bookNow a {
+  padding: 0 11px;
 }
 
-.descriptionTitle {
-	margin-bottom: 38px;
-	font-size: 36px;
-	font-weight: 300;
+#mainNavbar #registration {
+  background: #13322b;
 }
 
-.descriptionText {
-	font-size: 15.25px;
-	font-weight: 300;
-	width: 896px;
-	text-align: left;
-	text-align: justify;
-	margin: auto;
+#mainNavbar #registration a {
+  padding: 0 25px;
 }
 
-#destination {
-	background: #f5f6f6;
+#mainContent #landingDiv {
+  background: url("images/deer-background.png");
+  height: 770px;
 }
 
-#destination .descriptionText {
-	padding-bottom: 85px;
+#mainContent #landingDiv .centerDiv {
+  padding-top: 348px;
 }
 
-#overview {
-	background: url("images/mountain-overview.png");
-	width: 100%;
-	height: 538px;
+#mainContent #destination {
+  background: #f5f6f6;
 }
 
-#overview .centerDiv {
-	padding-top: 210px;
+#mainContent #destination .descriptionText {
+  padding-bottom: 65px;
 }
 
-.centerDiv h1 {
-	margin-bottom: 22px;
+#mainContent #destination img {
+  width: 894px;
 }
 
-.mountainText {
-	font-size: 16px;
-	text-align: justify;
-	margin: auto;
-	width: 896px;
+#mainContent #overview {
+  background: url("images/mountain-overview.png");
+  height: 538px;
 }
 
-#overview .btn {
-	font-family: Niconne;
-	font-size: 20px;
-	border-radius: 0;
-	margin-top: 50px;
+#mainContent #overview .centerDiv {
+  padding-top: 210px;
 }
 
-#ownerBenefits {
-	padding-bottom: 0;
+#mainContent #overview .centerDiv p {
+  font-size: 16px;
 }
 
-#ownerBenefits img {
-	width: 100%;
-	margin-top: 65px;
+#mainContent #overview .btn {
+  margin-top: 65px;
 }
 
-.boxTemplate {
-	margin: auto;
-	background-color: #f5f6f6;
-	background-image: url("images/pattern-rental.png");
-	background-repeat: no-repeat;
-	width: 896px;
-	height: 576px;
-	padding: 45px 65px 45px 30px;
+#mainContent #ownerBenefits {
+  padding-bottom: 0;
 }
 
-#rental,
-#developer {
-	padding-bottom: 0;
+#mainContent #ownerBenefits img {
+  padding-bottom: 0;
+  margin-top: 45px;
 }
 
-.imageTemplate {
-	float: left;
-	width: 483px;
-	height: 483px;
-	margin-right: 65px;
+#mainContent #rental {
+  padding-bottom: 0;
 }
 
-.pTemplate {
-	text-align: justify;
-	font-size: 13.5px;
+#mainContent #restaurant {
+  padding-bottom: 45px;
 }
 
-#restaurant {
-	padding-bottom: 45px;
+#mainContent #restaurant p {
+  text-align: center;
 }
 
-#restaurant p,
-#contact p {
-	text-align: center;
+#mainContent #spa {
+  width: 894px;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0;
+  margin: auto;
 }
 
-.bar a {
-	position: absolute;
-	color: white;
-	font-size: 25px;
-	font-weight: 400;
-	bottom: 55px;
-	left: 65px;
+#mainContent #spa .descriptionTitle {
+  color: white;
+  background: #13322b;
+  height: 65px;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
-.row {
-	margin: auto;
-	/* IMPORTANT */
+#mainContent #spa #gallery {
+  position: relative;
 }
 
-#spa {
-	width: 896px;
-	margin: auto;
-	padding-bottom: 65px;
+#mainContent #spa #gallery img {
+  width: 100%;
 }
 
-#spa .descriptionTitle {
-	background: #13322b;
-	color: white;
-	height: 65px;
-	padding: 20px;
-	margin-bottom: 10px;
+#mainContent #spa #gallery .btn {
+  font-family: Niconne;
+  position: absolute;
+  z-index: 1;
+  right: 70px;
+  bottom: 25px;
 }
 
-#gallery {
-	position: relative;
+#mainContent #spa .content-wrapper {
+  width: 100%;
+  margin-top: -95px;
 }
 
-#gallery .btn {
-	font-family: Niconne;
-	border-radius: 0;
-	font-size: 20px;
-	position: absolute;
-	right: 70px;
-	bottom: 25px;
+#mainContent #spa .content {
+  padding: 0 30px;
 }
 
-#wall {
-	width: 645px;
-	height: 105px;
-	position: absolute;
-	bottom: -10px;
-	background: white;
-	left: 30px;
-	text-align: left;
+#mainContent #spa .content-title {
+  text-align: left;
 }
 
-#wall img {
-	margin: 40px 30px;
-	float: left;
+#mainContent #spa .content-title .title-wrap {
+  background-color: white;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#wall h1 {
-	font-size: 36.16px;
-	margin-top: 65px;
-	margin-bottom: 55px;
+#mainContent #spa .content-title img {
+  width: 90px;
+  height: 55px;
+  padding: 0 25px;
 }
 
-.twoCol {
-	width: 770px;
-	height: 265px;
-	color: black;
-	font-weight: 300;
-	font-size: 15.25px;
+#mainContent #spa .content-title h1 {
+  font-size: 36.16px;
+  display: inline-block;
+  margin: 20px 0 0 0;
 }
 
-.twoCol p {
-	margin-bottom: 0;
+#mainContent #spa .content-detail {
+  text-align: justify;
+  padding: 45px 0 60px 0;
 }
 
-#col1 {
-	width: 354px;
-	float: left;
+#mainContent #spa .content-detail p {
+  font-size: 15.25px;
+  width: 354px;
 }
 
-#col2 {
-	width: 354px;
-	float: right;
+#mainContent #spa .content-detail div {
+  padding: 0 30px;
 }
 
-#landscape {
-	position: relative;
-	background: url("images/landscape-xp.png");
-	width: 100%;
-	height: 975px;
+#mainContent #exp {
+  background: url("images/landscape-xp.png");
+  height: 975px;
+  position: relative;
+  margin-top: -85px;
 }
 
-#landscape .centerDiv {
-	position: absolute;
-	padding-top: 160px;
-	top: 5px;
+#mainContent #exp .centerDiv {
+  padding-top: 165px;
 }
 
-#landscape .mountainText {
-	font-size: 15.7px;
+#mainContent #exp .centerDiv p {
+  font-size: 16px;
 }
 
-#content {
-	width: 896px;
-	height: 100%;
+#mainContent #exp #links {
+  margin-top: 65px;
 }
 
-#links {
-	margin-top: 60px;
+#mainContent #exp #links a:hover {
+  text-decoration: none;
+  background: #babc33;
 }
 
-#links .btn {
-	border-radius: 0;
-	border-width: 0;
-	font-size: 12px;
-	padding: 12px 12px;
-	margin-right: 15px;
+#mainContent #exp #links .btn {
+  font-family: Josefin Sans;
+  font-size: 12px;
+  border-width: 0;
+  padding: 12px;
+  margin-right: 15px;
 }
 
-#links a:hover {
-	text-decoration: none;
-	background: #babc33;
+#mainContent #exp #sport {
+  height: 448px;
+  bottom: -85px;
 }
 
-.whiteBar {
-	background: white;
-	width: 896px;
-	height: 85px;
-	position: absolute;
-	left: 65px;
+#mainContent #exp #sport #sportContent {
+  border: 1px solid #e5e4e4;
+  height: 448px;
+  padding: 65px;
 }
 
-.cursiveFont {
-	font-family: Niconne;
-	margin-bottom: 35px;
+#mainContent #exp #sport #sportContent p {
+  margin-bottom: 40px;
 }
 
-#vertical {
-	height: 448px;
-	bottom: -85px;
+#mainContent #exp #sport #sportContent #scrollbar {
+  text-align: center;
 }
 
-#left {
-	border: 1px solid #e5e4e4;
-	padding: 55px;
-	height: 448px;
+#mainContent #developer {
+  padding-bottom: 0;
 }
 
-#left p {
-	margin-bottom: 45px;
+#mainContent #developer .boxTemplate {
+  height: 413px;
 }
 
-#scrollbar {
-	text-align: center;
+#mainContent #developer .imgTemplate {
+  width: 480px;
+  height: 325px;
 }
 
-#contact {
-	padding-bottom: 0;
+#mainContent #developer .cursiveFont {
+  margin-bottom: 20px;
 }
 
-#contact p {
-	margin-bottom: 30px;
+#mainContent #developer #thanhDo {
+  margin-bottom: 45px;
 }
 
-#developer .boxTemplate {
-	height: 413px;
+#mainContent #contact {
+  padding-bottom: 0;
 }
 
-#developer .cursiveFont {
-	margin-bottom: 20px;
+#mainContent #contact p {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-#leftBox {
-	text-align: center;
+#mainContent #contact #info {
+  color: white;
+  width: 100%;
+  height: 705px;
+  position: absolute;
+  top: 0px;
 }
 
-#rightBox {
-	background: #13322b;
+#mainContent #contact #info img {
+  margin: 65px auto;
 }
 
-#leftContent {
-	width: 100%;
-	height: 705px;
-	position: absolute;
-	top: 0px;
-	color: white;
+#mainContent #contact #info h1 {
+  font-size: 32px;
 }
 
-#leftContent img {
-	margin: 65px 0px;
+#mainContent #contact #info p {
+  margin-bottom: 20px;
 }
 
-#leftContent h1 {
-	font-size: 32px;
+#mainContent #contact #info #email {
+  font-size: 20px;
 }
 
-#leftContent p {
-	margin-bottom: 20px;
+#mainContent #contact #rightContact {
+  background: #13322b;
 }
 
-#leftContent #email {
-	font-size: 20px;
+#mainContent #contact #rightContact #social {
+  color: white;
+  width: 100%;
+  height: 148px;
+  position: absolute;
+  bottom: 0px;
 }
 
-#rightContent {
-	width: 100%;
-	height: 148px;
-	position: absolute;
-	bottom: 0px;
-	color: white;
+#mainContent #contact #rightContact #social p {
+  margin-bottom: 0;
 }
 
-#rightContent p {
-	margin-bottom: 0;
+#mainContent #contact #rightContact #social #iconBar {
+  margin: 40px auto;
 }
 
-#iconBar {
-	margin: 40px auto;
+#mainContent #contact #rightContact #social #iconBar a {
+  margin: 0px 16px;
 }
-
-#iconBar a {
-	margin: 0px 22.5px;
-}
+/*# sourceMappingURL=app.css.map */

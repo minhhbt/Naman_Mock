@@ -1,0 +1,355 @@
+body {
+	font-family: Josefin Sans;
+	font-weight: 300;
+	color: white;
+	width: 1024px;
+	margin: auto;
+	h1 {
+		font-size: 40px;
+		font-weight: 300px;
+	}
+	hr {
+		margin: 170px auto 0 auto;
+	}
+	.fullBackground {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+	}
+	.centerDiv {
+		text-align: center;
+		width: 100%;
+		position: relative;
+	}
+	.descriptionDiv {
+		color: black;
+		text-align: center;
+		background: white;
+		padding: 85px 0;
+	}
+	.descriptionTitle {
+		font-size: 36px;
+		font-weight: 300;
+		margin-bottom: 38px;
+	}
+	.descriptionText {
+		font-size: 15.25px;
+		text-align: justify;
+		width: 894px;
+		margin: auto;
+	}
+	.btn {
+		font-family: Niconne;
+		font-size: 20px;
+		border-radius: 0;
+	}
+	.boxTemplate {
+		background-color: #f5f6f6;
+		background-image: url("images/pattern-rental.png");
+		background-repeat: no-repeat;
+		width: 894px;
+		height: 576px;
+		padding: 45px 65px 45px 30px;
+		margin: auto;
+	}
+	.imgTemplate {
+		float: left;
+		width: 483px;
+		height: 483px;
+		margin-right: 65px;
+	}
+	.pTemplate {
+		font-size: 13.5px;
+		text-align: justify;
+	}
+	.row {
+		margin: auto;
+	}
+	.barText {
+		font-size: 36px;
+		font-weight: 400;
+		color: white;
+		position: absolute;
+		bottom: 55px;
+		left: 65px;
+	}
+	.whiteBar {
+		background: white;
+		width: 894px;
+		height: 85px;
+		position: absolute;
+		left: 65px;
+	}
+	.cursiveFont {
+		font-family: Niconne;
+		margin-bottom: 35px;
+	}
+}
+#mainNavbar {
+	font-size: 14px;
+	background: white;
+	width: 1024px;
+	height: 60px;
+	padding: 0;
+	margin: 0 auto;
+	.navbar-brand {
+		img {
+			margin: 0 65px 0 45px;
+		}
+	}
+	.nav-link {
+		color: black;
+		padding: 0;
+	}
+	.leftLinks {
+		li {
+			margin-right: 45px;
+		}
+	}
+	.rightLinks {
+		height: 60px;
+		font-weight: 400;
+		a {
+			color: white;
+			text-align: center;
+			line-height: 60px;
+		}
+	}
+	#namanRes {
+		font-weight: 400;
+		margin-right: 0;
+	}
+	#en {
+		a {
+			font-weight: 300;
+			color: black;
+			text-align: center;
+			padding: 0 35px;
+		}
+	}
+	#bookNow {
+		background: #babc33;
+		a {
+			padding: 0 11px;
+		}
+	}
+	#registration {
+		background: #13322b;
+		a {
+			padding: 0 25px;
+		}
+	}
+}
+#mainContent {
+	#landingDiv {
+		background: url("images/deer-background.png");
+		height: 770px;
+		.centerDiv {
+			padding-top: 348px;
+		}
+	}
+	#destination {
+		background: #f5f6f6;
+		.descriptionText {
+			padding-bottom: 65px;
+		}
+		img {
+			width: 894px;
+		}
+	}
+	#overview {
+		background: url("images/mountain-overview.png");
+		height: 538px;
+		.centerDiv {
+			padding-top: 210px;
+			p {
+				font-size: 16px;
+			}
+		}
+		.btn {
+			margin-top: 65px;
+		}
+	}
+	#ownerBenefits {
+		padding-bottom: 0;
+		img {
+			padding-bottom: 0;
+			margin-top: 45px;
+		}
+	}
+	#rental {
+		padding-bottom: 0;
+	}
+	#restaurant {
+		padding-bottom: 45px;
+		p {
+			text-align: center;
+		}
+	}
+	#spa {
+		width: 894px;
+		position: relative;
+		z-index: 1;
+		padding-bottom: 0;
+		margin: auto;
+		.descriptionTitle {
+			color: white;
+			background: #13322b;
+			height: 65px;
+			padding: 20px;
+			margin-bottom: 10px;
+		}
+		#gallery {
+			position: relative;
+			img {
+				width: 100%;
+			}
+			.btn {
+				font-family: Niconne;
+				position: absolute;
+				z-index: 1;
+				right: 70px;
+				bottom: 25px;
+			}
+		}
+		.content-wrapper {
+			width: 100%;
+			margin-top: -95px;
+		}
+		.content {
+			padding: 0 30px;
+		}
+		.content-title {
+			text-align: left;
+		}
+		.content-title .title-wrap {
+			background-color: white;
+			padding-top: 40px;
+			display: flex;
+		}
+		.content-title img {
+			width: 90px;
+			height: 55px;
+			padding: 0 25px;
+		}
+		.content-title h1 {
+			font-size: 36.16px;
+			display: inline-block;
+			margin: 20px 0 0 0;
+		}
+		.content-detail {
+			text-align: justify;
+			padding: 45px 0 60px 0;
+			p {
+				font-size: 15.25px;
+				width: 354px;
+			}
+		}
+		.content-detail div {
+			padding: 0 30px;
+		}
+	}
+	#exp {
+		background: url("images/landscape-xp.png");
+		height: 975px;
+		position: relative;
+		margin-top: -85px;
+		.centerDiv {
+			padding-top: 165px;
+			p {
+				font-size: 16px;
+			}
+		}
+		#links {
+			margin-top: 65px;
+			a:hover {
+				text-decoration: none;
+				background: #babc33;
+			}
+			.btn {
+				font-family: Josefin Sans;
+				font-size: 12px;
+				border-width: 0;
+				padding: 12px;
+				margin-right: 15px;
+			}
+		}
+		#sport {
+			height: 448px;
+			bottom: -85px;
+			#sportContent {
+				border: 1px solid #e5e4e4;
+				height: 448px;
+				padding: 65px;
+				p {
+					margin-bottom: 40px;
+				}
+				#scrollbar {
+					text-align: center;
+				}
+			}
+		}
+	}
+	#developer {
+		padding-bottom: 0;
+		.boxTemplate {
+			height: 413px;
+		}
+		.imgTemplate {
+			width: 480px;
+			height: 325px;
+		}
+		.cursiveFont {
+			margin-bottom: 20px;
+		}
+		#thanhDo {
+			margin-bottom: 45px;
+		}
+	}
+	#contact {
+		padding-bottom: 0;
+		p {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		#info {
+			color: white;
+			width: 100%;
+			height: 705px;
+			position: absolute;
+			top: 0px;
+			img {
+				margin: 65px auto;
+			}
+			h1 {
+				font-size: 32px;
+			}
+			p {
+				margin-bottom: 20px;
+			}
+			#email {
+				font-size: 20px;
+			}
+		}
+		#rightContact {
+			background: #13322b;
+			#social {
+				color: white;
+				width: 100%;
+				height: 148px;
+				position: absolute;
+				bottom: 0px;
+				p {
+					margin-bottom: 0;
+				}
+				#iconBar {
+					margin: 40px auto;
+					a {
+						margin: 0px 16px;
+					}
+				}
+			}
+		}
+	}
+}
