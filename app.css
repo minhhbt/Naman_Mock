@@ -1,7 +1,7 @@
 body {
-  color: white;
   font-family: Josefin Sans;
   font-weight: 300;
+  color: white;
   width: 1024px;
   margin: auto;
 }
@@ -12,8 +12,7 @@ body h1 {
 }
 
 body hr {
-  margin-top: 170px;
-  margin-bottom: 0;
+  margin: 170px auto 0 auto;
 }
 
 body .fullBackground {
@@ -30,9 +29,9 @@ body .centerDiv {
 }
 
 body .descriptionDiv {
-  background: white;
   color: black;
   text-align: center;
+  background: white;
   padding: 85px 0;
 }
 
@@ -82,9 +81,9 @@ body .row {
 }
 
 body .barText {
-  color: white;
   font-size: 36px;
   font-weight: 400;
+  color: white;
   position: absolute;
   bottom: 55px;
   left: 65px;
@@ -127,6 +126,13 @@ body .cursiveFont {
 
 #mainNavbar .rightLinks {
   height: 60px;
+  font-weight: 400;
+}
+
+#mainNavbar .rightLinks a {
+  color: white;
+  text-align: center;
+  line-height: 60px;
 }
 
 #mainNavbar #namanRes {
@@ -135,32 +141,26 @@ body .cursiveFont {
 }
 
 #mainNavbar #en a {
+  font-weight: 300;
+  color: black;
   text-align: center;
   padding: 0 35px;
-  line-height: 60px;
 }
 
 #mainNavbar #bookNow {
-  font-weight: 400;
   background: #babc33;
 }
 
 #mainNavbar #bookNow a {
-  color: white;
-  padding: 0 12px;
-  line-height: 60px;
+  padding: 0 11px;
 }
 
 #mainNavbar #registration {
-  font-weight: 400;
   background: #13322b;
 }
 
 #mainNavbar #registration a {
-  color: white;
-  text-align: center;
   padding: 0 25px;
-  line-height: 60px;
 }
 
 #mainContent #landingDiv {
@@ -180,6 +180,10 @@ body .cursiveFont {
   padding-bottom: 65px;
 }
 
+#mainContent #destination img {
+  width: 894px;
+}
+
 #mainContent #overview {
   background: url("images/mountain-overview.png");
   height: 538px;
@@ -187,6 +191,10 @@ body .cursiveFont {
 
 #mainContent #overview .centerDiv {
   padding-top: 210px;
+}
+
+#mainContent #overview .centerDiv p {
+  font-size: 16px;
 }
 
 #mainContent #overview .btn {
@@ -198,8 +206,8 @@ body .cursiveFont {
 }
 
 #mainContent #ownerBenefits img {
-  margin-top: 45px;
   padding-bottom: 0;
+  margin-top: 45px;
 }
 
 #mainContent #rental {
@@ -223,8 +231,8 @@ body .cursiveFont {
 }
 
 #mainContent #spa .descriptionTitle {
-  background: #13322b;
   color: white;
+  background: #13322b;
   height: 65px;
   padding: 20px;
   margin-bottom: 10px;
@@ -274,9 +282,9 @@ body .cursiveFont {
 }
 
 #mainContent #spa .content-title h1 {
+  font-size: 36.16px;
   display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin: 20px 0 0 0;
 }
 
 #mainContent #spa .content-detail {
@@ -304,13 +312,17 @@ body .cursiveFont {
   padding-top: 165px;
 }
 
+#mainContent #exp .centerDiv p {
+  font-size: 16px;
+}
+
 #mainContent #exp #links {
   margin-top: 65px;
 }
 
 #mainContent #exp #links a:hover {
-  background: #babc33;
   text-decoration: none;
+  background: #babc33;
 }
 
 #mainContent #exp #links .btn {
@@ -348,8 +360,17 @@ body .cursiveFont {
   height: 413px;
 }
 
+#mainContent #developer .imgTemplate {
+  width: 480px;
+  height: 325px;
+}
+
 #mainContent #developer .cursiveFont {
   margin-bottom: 20px;
+}
+
+#mainContent #developer #thanhDo {
+  margin-bottom: 45px;
 }
 
 #mainContent #contact {
@@ -406,6 +427,6 @@ body .cursiveFont {
 }
 
 #mainContent #contact #rightContact #social #iconBar a {
-  margin: 0px 22.5px;
+  margin: 0px 16px;
 }
 /*# sourceMappingURL=app.css.map */
