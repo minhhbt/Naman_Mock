@@ -10,15 +10,18 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="app.css">
+    <!-- Tablet Sass -->
+    <link rel="stylesheet" href="tablet.css">
+
+    <!-- Mobile Sass -->
+    <link rel='stylesheet' media='screen and (max-width: 640px)' href='mobile.css' />
 
     <title>Naman Retreat, Danang, Vietnam</title>
 </head>
 <body>
   
-<!-- NAVBAR -->
-<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+<!-- Navbar -->
+<nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top d-sm-none">
   <div class="mx-auto order-0">
     <a href="#" class="navbar-brand mx-auto">
       <img src="images/logo.png" alt="">
@@ -56,11 +59,11 @@
       </li>
     </ul>
   </div>
-</nav>  <!--END MAINNAVBAR-->
+</nav>  
 
 <div id="mainContent">
 
-<!-- LANDING PAGE -->
+<!-- Landing Page -->
 <div class="fullBackground" id="landingDiv">
   <div class="centerDiv">
     <h1>BEING</h1>
@@ -68,17 +71,28 @@
   </div>
 </div>
 
-<!-- CONCEPT DESIGN -->
+<!-- Concept Design -->
 <div class="descriptionDiv" id="conceptDesign">
   <h1 class = "descriptionTitle">CONCEPT DESIGN</h1>
   <div class="descriptionText">
-    <p>Naman Residences exemplify elegance through simplicity.<p>
-    <p>The integration of lush gardens, open interiors with natural elements creates harmony for residents to enjoy the beauty of the location from the privacy of your villa.<p>
-    <p>Incorporation of natural elements of wood, bamboo and stone complement the clean lines and open air design. Interiors include modern amenities and fittings to optimize the highest standard of living.</p>
+    <p class="d-none d-md-block">Naman Residences exemplify elegance through simplicity.<p>
+    <p class="d-none d-md-block">The integration of lush gardens, open interiors with natural elements creates harmony for residents to enjoy the beauty of the location from the privacy of your villa.<p>
+    <p class="d-none d-md-block">Incorporation of natural elements of wood, bamboo and stone complement the clean lines and open air design. 
+       Interiors include modern amenities and fittings to optimize the highest standard of living.</p>
+    <p class="d-sm-block d-md-none">
+      Naman Retreat seamlessly blends timeless Vietnamese heritage and culture with luxurious modern charm. 
+      Impressive traditional bamboo architecture and exquisite interiors, combined with our authentic Vietnamese hospitality assures you a wonderful retreat experience.</p>
+    <p class="d-sm-block d-md-none">
+      Naman Retreat is the perfect getaway for those who crave something bold, unique, and desire to awaken their senses. 
+      We blur the lines between resort and spa, offering marvellous living spaces and countless opportunities to calm your mind, heal your body, and renew your soul. 
+      You’ll leave enriched, renewed and rejuvenated. 
+      Our goal is to create magical and delightful experiences for each of our guests.
+      Everything embraces our guests' needs and desires as they embark on a journey of 'Being. Conciousness. Bliss'
+    </p>
   </div>
 </div> 
 
-<!-- DESTINATION -->
+<!-- Destination -->
 <div class="descriptionDiv" id="destination">
   <h1 class="descriptionTitle">DESTINATION</h1>
   <div class="descriptionText">
@@ -88,29 +102,29 @@
     <img src="images/water-destination.png" alt="">
 </div>
     
-<!-- OVERVIEW -->
+<!-- Overview -->
 <div class ="fullBackground" id="overview">
     <div class="centerDiv">
         <h1>OVERVIEW THE VILLAS</h1>
-        <p class="descriptionText">Naman Residences consists of 34 stunning Villas featuring contemporary, modern architecture and nature green spaces. From the spacious and elegant beachfront style of Villa A to the beautiful, minimalist and private style of Villa B, C & D, each villa is unique and offers a luxurious retreat for family or friends.</p>
-        <a href="" class="btn btn-outline-light btn-lg">View all</a>
+        <p class="descriptionText d-none d-md-block">Naman Residences consists of 34 stunning Villas featuring contemporary, modern architecture and nature green spaces. From the spacious and elegant beachfront style of Villa A to the beautiful, minimalist and private style of Villa B, C & D, each villa is unique and offers a luxurious retreat for family or friends.</p>
+        <a href="" class="btn btn-outline-light btn-lg d-sm-none d-md-inline-block">View all</a>
     </div>
 </div>
 
-<!-- OWNER BENEFITS -->
+<!-- Owner Benefits -->
 <div class="fullBackground descriptionDiv" id="ownerBenefits">
   <h1 class = "descriptionTitle">OWNER'S BENEFITS</h1>
   <div class="descriptionText">
     <p>Naman Residences is an integrated part of Naman Retreat. Owners will have the privilege of enjoying our top-notch class public facilities such as pools, restaurants, bars, spa, and kids club.<p>
     <p>Villas are fully furnished with all 5-star standard furniture and fixtures with high Committed Return on Investment rate.<p>
     <p>Owners will benefit from our attractive rental programs operated by Naman Retreat.<p>
-    <p>Owners will be entitled to privileges such as 20% discounts on public rates for accommodation, F&B services, spa, and gym.<p>
+    <p>Owners will be entitled to privileges such as 20% discounts on public rates for accommodation, F&B services, spa, and gym.
     <p>Owners will be entitled to permanent Ownership Certificate with long term land use right for Vietnamese and 50 years plus applicable extension for Foreigners.</p>
   </div>
   <img src="images/yacht-owner.png" alt="">
 </div> 
 
-<!-- RENTAL PROGRAM-->
+<!-- Rental Program -->
 <div class="descriptionDiv" id="rental">
   <h1 class = "descriptionTitle">RENTAL PROGRAM</h1>
   <div class="descriptionText boxTemplate">
@@ -138,21 +152,21 @@
 <!-- BARS -->
 <div id="bars">
   <div class = "row">
-    <div class="col-md-6 m-md-0 p-md-0">
+    <div class="col-sm-12 col-md-6 m-0 p-0">
       <img src="images/calgary-restaurant.png" alt=""/>
       <a class="barText" href="">Hay Hay Restaurant</a>
     </div>
-    <div class="col-md-6 m-md-0 p-md-0">
+    <div class="col-sm-12 col-md-6  m-0 p-0">
       <img src="images/calgary-restaurant.png" alt=""/>
       <a class="barText" href="">B Lounge</a>
     </div>
   </div>
   <div class = "row">
-    <div class="col-md-6 m-md-0 p-md-0">
+    <div class="col-sm-12 col-md-6 m-0 p-0">
       <img src="images/calgary-restaurant.png" alt=""/>
       <a class="barText" href="">Cofftee Club</a>
     </div>
-    <div class="col-md-6 m-md-0 p-md-0">
+    <div class="col-sm-12 col-md-6 m-0 p-0">
       <img src="images/calgary-restaurant.png" alt=""/>
       <a class="barText" href="">Sitini Bar</a>
     </div>
@@ -210,7 +224,7 @@
   </div> 
   <div class="whiteBar" id="sport">
     <div class="row">
-      <div class="col-md-6 m-md-0 descriptionText descriptionDiv" id="sportContent">
+      <div class="col-sm-12 col-md-6 m-0 descriptionText descriptionDiv order-sm-2 order-md-1" id="sportContent">
         <h1 class="descriptionTitle cursiveFont">Sport</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
@@ -219,8 +233,9 @@
           <img src="images/scrollbar.png" alt="">
         </div>
       </div>
-      <div class="col-md-6 m-md-0 p-md-0">
-        <img src="images/blue-sport.png" alt="">
+      <div class="col-sm-12 col-md-6 m-0 p-0 order-sm-1 order-md-2" id="sportImage">
+        <img class="d-sm-none d-md-block" src="images/blue-sport.png" alt="">
+        <img class="d-sm-block d-md-none" src="images/blue-mod.png" alt="">
       </div>
     </div>
   </div> 
@@ -254,8 +269,10 @@
     <p>For general questions, bug reports and documentation inquiry please fill out the form below.</p>
   </div>
   <div class = "row">
-      <div class="col-md-6 m-md-0 p-md-0" id="leftContact">
-        <img src="images/footer-leftContent.png" alt=""/>
+      <div class="col-sm-12 col-md-6 m-0 p-0" id="leftContact">
+        <div id="leftContactBG">
+          <img src="images/footer-leftContact.png" alt=""/>
+        </div>
         <div id="info">
           <img src="images/namanLogo.png" alt="">
           <h1>Naman Retreat, Vietnam</h1>
@@ -266,7 +283,7 @@
           <p id="email">residences@namanretreat.com</p>
         </div>
       </div>
-      <div class="col-md-6 m-md-0 p-md-0" id="rightContact">
+      <div class="col-sm-12 col-md-6 m-0 p-0" id="rightContact">
           <iframe width="512" height="557" id="gmap_canvas" src="https://maps.google.com/maps?q=naman&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         <div id="social">
           <div id="iconBar">
@@ -283,7 +300,7 @@
   </div>
 </div> 
 
-</div> <!--END MAINCONTENT-->
+</div> 
 
 </body>
 </html>

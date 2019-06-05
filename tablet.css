@@ -12,7 +12,7 @@ body h1 {
 }
 
 body hr {
-  margin: 170px auto 0 auto;
+  margin: 220px auto 0 auto;
 }
 
 body .fullBackground {
@@ -303,7 +303,7 @@ body .cursiveFont {
 
 #mainContent #exp {
   background: url("images/landscape-xp.png");
-  height: 975px;
+  height: 806px;
   position: relative;
   margin-top: -85px;
 }
@@ -317,7 +317,7 @@ body .cursiveFont {
 }
 
 #mainContent #exp #links {
-  margin-top: 65px;
+  margin-top: 55px;
 }
 
 #mainContent #exp #links a:hover {
@@ -335,7 +335,7 @@ body .cursiveFont {
 
 #mainContent #exp #sport {
   height: 448px;
-  bottom: -85px;
+  bottom: -140px;
 }
 
 #mainContent #exp #sport #sportContent {
@@ -350,6 +350,11 @@ body .cursiveFont {
 
 #mainContent #exp #sport #sportContent #scrollbar {
   text-align: center;
+}
+
+#mainContent #exp #sport #sportImage img {
+  width: 100%;
+  height: 448px;
 }
 
 #mainContent #developer {
@@ -429,4 +434,4 @@ body .cursiveFont {
 #mainContent #contact #rightContact #social #iconBar a {
   margin: 0px 16px;
 }
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=tablet.css.map */

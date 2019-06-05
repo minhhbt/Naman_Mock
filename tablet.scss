@@ -9,7 +9,7 @@ body {
 		font-weight: 300px;
 	}
 	hr {
-		margin: 170px auto 0 auto;
+		margin: 220px auto 0 auto;
 	}
 	.fullBackground {
 		background-size: cover;
@@ -252,7 +252,7 @@ body {
 	}
 	#exp {
 		background: url("images/landscape-xp.png");
-		height: 975px;
+		height: 806px;
 		position: relative;
 		margin-top: -85px;
 		.centerDiv {
@@ -262,7 +262,7 @@ body {
 			}
 		}
 		#links {
-			margin-top: 65px;
+			margin-top: 55px;
 			a:hover {
 				text-decoration: none;
 				background: #babc33;
@@ -277,7 +277,7 @@ body {
 		}
 		#sport {
 			height: 448px;
-			bottom: -85px;
+			bottom: -140px;
 			#sportContent {
 				border: 1px solid #e5e4e4;
 				height: 448px;
@@ -287,6 +287,12 @@ body {
 				}
 				#scrollbar {
 					text-align: center;
+				}
+			}
+			#sportImage {
+				img {
+					width: 100%;
+					height: 448px;
 				}
 			}
 		}
