@@ -44,6 +44,20 @@
   #mainContent #overview .centerDiv {
     padding-top: 185px;
   }
+  #mainContent #overview .centerDiv p {
+    color: black;
+    position: relative;
+    z-index: 1px;
+    bottom: -220px;
+  }
+  #mainContent #villas {
+    padding: 210px 0 0 0;
+  }
+  #mainContent #villas .barText {
+    font-family: Niconne;
+    bottom: 30px;
+    left: 270px;
+  }
   #mainContent #ownerBenefits img {
     width: 100%;
   }
@@ -55,6 +69,29 @@
   }
   #mainContent #spa .content-wrapper {
     margin-top: 0;
+  }
+  #mainContent #spa .content {
+    padding: 0;
+  }
+  #mainContent #spa .content-title .title-wrap {
+    display: block;
+    padding: 40px 0 0 20px;
+  }
+  #mainContent #spa .content-title img {
+    width: 80px;
+    height: 55px;
+    float: right;
+    padding: 0 20px;
+  }
+  #mainContent #spa .content-title h1 {
+    display: inline-block;
+    margin: 20px 0 0 0;
+  }
+  #mainContent #spa .content-detail p {
+    width: 260px;
+  }
+  #mainContent #spa .content-detail div {
+    padding: 0 20px;
   }
   #mainContent #exp #sport {
     bottom: -530px;
@@ -73,7 +110,7 @@
     width: 512px;
     height: 325px;
   }
-  #mainContent #contact #leftContact #leftContactBG img {
+  #mainContent #contact #leftContact #leftContactBG {
     width: 100%;
     height: 609px;
   }
