@@ -1,4 +1,7 @@
 @media screen and (max-width: 640px) {
+  @-ms-viewport {
+    width: 640px;
+  }
   body {
     width: 640px;
   }
@@ -9,7 +12,7 @@
     width: 600px;
   }
   body .boxTemplate {
-    background-image: url("images/pattern-mod.png");
+    background-image: url("images/mobile/pattern-mod.png");
     width: 600px;
     height: 951px;
     padding: 45px;
@@ -28,7 +31,9 @@
   }
   #mainNavbar {
     width: 640px;
-    margin: 0;
+  }
+  #mainNavbar .leftLinks li {
+    margin-right: 34px;
   }
   #mainContent #landingDiv {
     background-position: center;
@@ -37,7 +42,7 @@
     width: 600px;
   }
   #mainContent #overview {
-    background: url("images/overview-mod.png");
+    background: url("images/mobile/overview-mod.png");
     background-position: center;
     height: 400px;
   }
@@ -59,9 +64,6 @@
     left: 270px;
   }
   #mainContent #ownerBenefits img {
-    width: 100%;
-  }
-  #mainContent #bars img {
     width: 100%;
   }
   #mainContent #spa {

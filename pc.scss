@@ -1,0 +1,92 @@
+@media screen and (max-width: 1920px) {
+	@-ms-viewport {
+		width: 1920px;
+	}
+	body {
+		width: 1920px;
+		h1 {
+			font-size: 60px;
+		}
+		.descriptionText {
+			font-size: 18px;
+			width: 1024px;
+		}
+		.btn {
+			font-size: 24px;
+		}
+		.boxTemplate {
+			background-image: url("images/default/pattern-rental.png");
+			background-repeat: no-repeat;
+			width: 1024px;
+		}
+		.imgTemplate {
+			width: 480px;
+			height: 488px;
+		}
+		.whiteBar {
+			width: 1024px;
+			left: 447px;
+		}
+	}
+	#mainNavbar {
+		width: 1920px;
+		.navbar-brand {
+			img {
+				margin: 0 320px 0 45px;
+			}
+		}
+	}
+	#mainContent {
+		#landingDiv {
+			background: url("images/pc/deer-xl.png");
+			height: 1080px;
+			.centerDiv {
+				padding-top: 500px;
+				p {
+					font-size: 24px;
+				}
+			}
+		}
+		#destination {
+			img {
+				width: 1024px;
+			}
+		}
+		#overview {
+			background: url("images/pc/mountain-xl.png");
+			height: 828px;
+			.centerDiv {
+				padding-top: 391px;
+			}
+		}
+		#ownerBenefits {
+			img {
+				width: 100%;
+				height: 638px;
+			}
+		}
+		#rental {
+			.pTemplate {
+				font-size: 17px;
+			}
+		}
+		#spa {
+			width: 1024px;
+			.content-detail {
+				p {
+					font-size: 18px;
+					width: 415px;
+				}
+			}
+		}
+		#exp {
+			background: url("images/pc/landscape-xl.png");
+			height: 868px;
+			.centerDiv {
+				p {
+					font-size: 17px;
+				}
+			}
+		}
+	}
+}
