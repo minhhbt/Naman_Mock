@@ -13,7 +13,7 @@
     font-size: 24px;
   }
   body .boxTemplate {
-    background-image: url("images/default/pattern-rental.png");
+    background-image: url("img-default/pattern-rental.png");
     background-repeat: no-repeat;
     width: 1024px;
   }
@@ -32,7 +32,7 @@
     margin: 0 320px 0 45px;
   }
   #mainContent #landingDiv {
-    background: url("images/pc/deer-xl.png");
+    background: url("img-pc/deer-xl.png");
     height: 1080px;
   }
   #mainContent #landingDiv .centerDiv {
@@ -45,7 +45,7 @@
     width: 1024px;
   }
   #mainContent #overview {
-    background: url("images/pc/mountain-xl.png");
+    background: url("img-pc/mountain-xl.png");
     height: 828px;
   }
   #mainContent #overview .centerDiv {
@@ -66,7 +66,7 @@
     width: 415px;
   }
   #mainContent #exp {
-    background: url("images/pc/landscape-xl.png");
+    background: url("img-pc/landscape-xl.png");
     height: 868px;
   }
   #mainContent #exp .centerDiv p {

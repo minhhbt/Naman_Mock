@@ -9,7 +9,7 @@
     width: 600px;
   }
   body .boxTemplate {
-    background-image: url("images/mobile/pattern-mod.png");
+    background-image: url("img-mobile/pattern-mod.png");
     width: 600px;
     height: 951px;
     padding: 45px;
@@ -39,7 +39,7 @@
     width: 600px;
   }
   #mainContent #overview {
-    background: url("images/mobile/overview-mod.png");
+    background: url("img-mobile/overview-mod.png");
     background-position: center;
     height: 400px;
   }

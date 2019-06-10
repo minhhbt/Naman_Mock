@@ -56,7 +56,7 @@ body .btn {
 
 body .boxTemplate {
   background-color: #f5f6f6;
-  background-image: url("images/default/pattern-rental.png");
+  background-image: url("img-default/pattern-rental.png");
   background-repeat: no-repeat;
   width: 894px;
   height: 576px;
@@ -164,7 +164,7 @@ body .cursiveFont {
 }
 
 #mainContent #landingDiv {
-  background: url("images/default/deer-background.png");
+  background: url("img-default/deer-background.png");
   height: 770px;
 }
 
@@ -185,7 +185,7 @@ body .cursiveFont {
 }
 
 #mainContent #overview {
-  background: url("images/default/mountain-overview.png");
+  background: url("img-default/mountain-overview.png");
   height: 538px;
 }
 
@@ -206,6 +206,7 @@ body .cursiveFont {
 }
 
 #mainContent #ownerBenefits img {
+  width: 1024px;
   padding-bottom: 0;
   margin-top: 55px;
 }
@@ -306,7 +307,7 @@ body .cursiveFont {
 }
 
 #mainContent #exp {
-  background: url("images/default/landscape-xp.png");
+  background: url("img-default/landscape-xp.png");
   height: 806px;
   position: relative;
   margin-top: -85px;
