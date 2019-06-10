@@ -1,7 +1,7 @@
 body {
-	color: white;
 	font-family: Josefin Sans;
 	font-weight: 300;
+	color: white;
 	width: 1024px;
 	margin: auto;
 	h1 {
@@ -9,8 +9,7 @@ body {
 		font-weight: 300px;
 	}
 	hr {
-		margin-top: 170px;
-		margin-bottom: 0;
+		margin: 220px auto 0 auto;
 	}
 	.fullBackground {
 		background-size: cover;
@@ -24,9 +23,9 @@ body {
 		position: relative;
 	}
 	.descriptionDiv {
-		background: white;
 		color: black;
 		text-align: center;
+		background: white;
 		padding: 85px 0;
 	}
 	.descriptionTitle {
@@ -47,7 +46,7 @@ body {
 	}
 	.boxTemplate {
 		background-color: #f5f6f6;
-		background-image: url("images/pattern-rental.png");
+		background-image: url("img-default/pattern-rental.png");
 		background-repeat: no-repeat;
 		width: 894px;
 		height: 576px;
@@ -68,9 +67,9 @@ body {
 		margin: auto;
 	}
 	.barText {
-		color: white;
 		font-size: 36px;
 		font-weight: 400;
+		color: white;
 		position: absolute;
 		bottom: 55px;
 		left: 65px;
@@ -90,7 +89,7 @@ body {
 #mainNavbar {
 	font-size: 14px;
 	background: white;
-	width: 1024px;
+	width: 100%;
 	height: 60px;
 	padding: 0;
 	margin: 0 auto;
@@ -110,6 +109,12 @@ body {
 	}
 	.rightLinks {
 		height: 60px;
+		font-weight: 400;
+		a {
+			color: white;
+			text-align: center;
+			line-height: 60px;
+		}
 	}
 	#namanRes {
 		font-weight: 400;
@@ -117,34 +122,28 @@ body {
 	}
 	#en {
 		a {
+			font-weight: 300;
+			color: black;
 			text-align: center;
 			padding: 0 35px;
-			line-height: 60px;
 		}
 	}
 	#bookNow {
-		font-weight: 400;
 		background: #babc33;
 		a {
-			color: white;
-			padding: 0 12px;
-			line-height: 60px;
+			padding: 0 11px;
 		}
 	}
 	#registration {
-		font-weight: 400;
 		background: #13322b;
 		a {
-			color: white;
-			text-align: center;
 			padding: 0 25px;
-			line-height: 60px;
 		}
 	}
 }
 #mainContent {
 	#landingDiv {
-		background: url("images/deer-background.png");
+		background: url("img-default/deer-background.png");
 		height: 770px;
 		.centerDiv {
 			padding-top: 348px;
@@ -152,16 +151,21 @@ body {
 	}
 	#destination {
 		background: #f5f6f6;
-
 		.descriptionText {
 			padding-bottom: 65px;
 		}
+		img {
+			width: 894px;
+		}
 	}
 	#overview {
-		background: url("images/mountain-overview.png");
+		background: url("img-default/mountain-overview.png");
 		height: 538px;
 		.centerDiv {
 			padding-top: 210px;
+			p {
+				font-size: 16px;
+			}
 		}
 		.btn {
 			margin-top: 65px;
@@ -169,14 +173,19 @@ body {
 	}
 	#ownerBenefits {
 		padding-bottom: 0;
-
 		img {
-			margin-top: 45px;
+			width: 1024px;
 			padding-bottom: 0;
+			margin-top: 55px;
 		}
 	}
 	#rental {
 		padding-bottom: 0;
+	}
+	#bars {
+		img {
+			width: 100%;
+		}
 	}
 	#restaurant {
 		padding-bottom: 45px;
@@ -191,8 +200,8 @@ body {
 		padding-bottom: 0;
 		margin: auto;
 		.descriptionTitle {
-			background: #13322b;
 			color: white;
+			background: #13322b;
 			height: 65px;
 			padding: 20px;
 			margin-bottom: 10px;
@@ -231,9 +240,9 @@ body {
 			padding: 0 25px;
 		}
 		.content-title h1 {
+			font-size: 36.16px;
 			display: inline-block;
-			margin-top: 20px;
-			margin-bottom: 0;
+			margin: 20px 0 0 0;
 		}
 		.content-detail {
 			text-align: justify;
@@ -248,18 +257,21 @@ body {
 		}
 	}
 	#exp {
-		background: url("images/landscape-xp.png");
-		height: 975px;
+		background: url("img-default/landscape-xp.png");
+		height: 806px;
 		position: relative;
 		margin-top: -85px;
 		.centerDiv {
 			padding-top: 165px;
+			p {
+				font-size: 16px;
+			}
 		}
 		#links {
-			margin-top: 65px;
+			margin-top: 55px;
 			a:hover {
-				background: #babc33;
 				text-decoration: none;
+				background: #babc33;
 			}
 			.btn {
 				font-family: Josefin Sans;
@@ -271,7 +283,7 @@ body {
 		}
 		#sport {
 			height: 448px;
-			bottom: -85px;
+			bottom: -140px;
 			#sportContent {
 				border: 1px solid #e5e4e4;
 				height: 448px;
@@ -283,6 +295,12 @@ body {
 					text-align: center;
 				}
 			}
+			#sportImage {
+				img {
+					width: 100%;
+					height: 448px;
+				}
+			}
 		}
 	}
 	#developer {
@@ -290,8 +308,15 @@ body {
 		.boxTemplate {
 			height: 413px;
 		}
+		.imgTemplate {
+			width: 480px;
+			height: 325px;
+		}
 		.cursiveFont {
 			margin-bottom: 20px;
+		}
+		#thanhDo {
+			margin-bottom: 45px;
 		}
 	}
 	#contact {
@@ -300,23 +325,28 @@ body {
 			text-align: center;
 			margin-bottom: 30px;
 		}
-		#info {
-			color: white;
-			width: 100%;
-			height: 705px;
-			position: absolute;
-			top: 0px;
-			img {
-				margin: 65px auto;
-			}
-			h1 {
-				font-size: 32px;
-			}
-			p {
-				margin-bottom: 20px;
-			}
-			#email {
-				font-size: 20px;
+		#leftContact {
+			#info {
+				color: white;
+				width: 100%;
+				height: 705px;
+				position: absolute;
+				top: 0px;
+				img {
+					margin: 65px auto;
+				}
+				h1 {
+					font-size: 32px;
+				}
+				p {
+					margin-bottom: 20px;
+				}
+				#namanLogo {
+					width: 164px;
+				}
+				#email {
+					font-size: 20px;
+				}
 			}
 		}
 		#rightContact {
@@ -333,7 +363,7 @@ body {
 				#iconBar {
 					margin: 40px auto;
 					a {
-						margin: 0px 22.5px;
+						margin: 0px 16px;
 					}
 				}
 			}

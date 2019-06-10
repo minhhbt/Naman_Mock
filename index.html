@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Niconne&display=swap" rel="stylesheet">
@@ -9,25 +10,26 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="app.css">
+    <!-- Responsive -->
 
+    <link rel="stylesheet" href="style.css">
+    
     <title>Naman Retreat, Danang, Vietnam</title>
 </head>
 <body>
   
-<!-- NAVBAR -->
+<!-- MAIN NAVBAR -->
 <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-  <div class="mx-auto order-0">
+  <div class="mx-md-auto mx-sm-0 order-0">
     <a href="#" class="navbar-brand mx-auto">
-      <img src="images/logo.png" alt="">
+      <img src="stylesheets/img-default/logo.png" alt="">
     </a> 
     <button class="navbar-toggler" data-toggle="collapse" data-target=".dual-collapse2" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
   <div class="collapse navbar-collapse order-1 order-md-0 dual-collapse2">
-    <ul class="navbar-nav mr-auto leftLinks">
+    <ul class="navbar-nav mr-md-auto leftLinks">
       <li class="nav-item">
         <a href="" class="nav-link">Home</a>
       </li>
@@ -43,7 +45,7 @@
     </ul>
   </div>
   <div class="navbar-collapse collapse order-3 dual-collapse2">
-    <ul class="nav navbar-nav ml-auto rightLinks">
+    <ul class="nav navbar-nav ml-md-auto rightLinks">
       <li class="nav-item" id="en">
         <a href="" class="nav-link">EN</a>
       </li>
@@ -55,7 +57,7 @@
       </li>
     </ul>
   </div>
-</nav> 
+</nav>  
 
 <div id="mainContent">
 
@@ -71,9 +73,20 @@
 <div class="descriptionDiv" id="conceptDesign">
   <h1 class = "descriptionTitle">CONCEPT DESIGN</h1>
   <div class="descriptionText">
-    <p>Naman Residences exemplify elegance through simplicity.<p>
-    <p>The integration of lush gardens, open interiors with natural elements creates harmony for residents to enjoy the beauty of the location from the privacy of your villa.<p>
-    <p>Incorporation of natural elements of wood, bamboo and stone complement the clean lines and open air design. Interiors include modern amenities and fittings to optimize the highest standard of living.</p>
+    <p class="d-none d-md-block">Naman Residences exemplify elegance through simplicity.<p>
+    <p class="d-none d-md-block">The integration of lush gardens, open interiors with natural elements creates harmony for residents to enjoy the beauty of the location from the privacy of your villa.<p>
+    <p class="d-none d-md-block">Incorporation of natural elements of wood, bamboo and stone complement the clean lines and open air design. 
+       Interiors include modern amenities and fittings to optimize the highest standard of living.</p>
+    <p class="d-sm-block d-md-none">
+      Naman Retreat seamlessly blends timeless Vietnamese heritage and culture with luxurious modern charm. 
+      Impressive traditional bamboo architecture and exquisite interiors, combined with our authentic Vietnamese hospitality assures you a wonderful retreat experience.</p>
+    <p class="d-sm-block d-md-none">
+      Naman Retreat is the perfect getaway for those who crave something bold, unique, and desire to awaken their senses. 
+      We blur the lines between resort and spa, offering marvellous living spaces and countless opportunities to calm your mind, heal your body, and renew your soul. 
+      You’ll leave enriched, renewed and rejuvenated. 
+      Our goal is to create magical and delightful experiences for each of our guests.
+      Everything embraces our guests' needs and desires as they embark on a journey of 'Being. Conciousness. Bliss'
+    </p>
   </div>
 </div> 
 
@@ -81,19 +94,44 @@
 <div class="descriptionDiv" id="destination">
   <h1 class="descriptionTitle">DESTINATION</h1>
   <div class="descriptionText">
-    <p>Danang has become Vietnam’s “most ideal” holiday destination. With an excellent international airport, pristine white sand beaches and cultural World Heritage sites, Danang offers visitors a unique and memorable experience unmatched throughout the world.<p>
+    <p>Danang has become Vietnam’s “most ideal” holiday destination. With an excellent international airport, pristine white sand beaches and cultural World Heritage sites, Danang offers visitors a unique and memorable experience unmatched throughout the world.<a>
     <p>Naman Retreat is a secluded, beachfront enclave nestled between two of the finest golf courses in Southeast Asia - Greg Norman’s Danang Golf Club and The Montgomerie Links. The world-famous Hoi An Ancient Town is just moments away, whilst the resort gives easy access to Danang City, The Marble Mountains, Ba Na Hills entertainment and the World Heritage Sites of My Son Sanctuary and the Imperial City of Hue.</p>
   </div>
-    <img src="images/water-destination.png" alt="">
+    <img src="stylesheets/img-default/water-destination.png" alt="">
 </div>
     
 <!-- OVERVIEW -->
 <div class ="fullBackground" id="overview">
     <div class="centerDiv">
-        <h1>OVERVIEW THE VILLAS </h1>
-        <p class="descriptionText">Naman Residences consists of 34 stunning Villas featuring contemporary, modern architecture and nature green spaces. From the spacious and elegant beachfront style of Villa A to the beautiful, minimalist and private style of Villa B, C & D, each villa is unique and offers a luxurious retreat for family or friends.</p>
-        <a href="" class="btn btn-outline-light btn-lg">View all</a>
+        <h1>OVERVIEW THE VILLAS</h1>
+        <p class="descriptionText">
+          Naman Residences consists of 34 stunning Villas featuring contemporary, modern architecture and nature green spaces. 
+          From the spacious and elegant beachfront style of Villa A to the beautiful, minimalist and private style of Villa B, C & D, each villa is unique and offers a luxurious retreat for family or friends.</p>
+        <a href="" class="btn btn-outline-light btn-lg d-sm-none d-md-inline-block">View all</a>
     </div>
+</div>
+
+<!-- VILLAS -->
+<div class="d-block d-md-none" id="villas">
+  <div class="row">
+    <div class="col-12 m-0 p-0">
+      <img class="img-responsive" src="stylesheets/img-mobile/villa.png" alt="">
+      <a class="barText" href="">Villa A</a>
+    </div>
+    <div class="col-12 m-0 p-0">
+      <img src="stylesheets/img-mobile/villa.png" alt="">
+      <a class="barText" href="">Villa B</a>
+    </div>
+    <div class="col-12 m-0 p-0">
+      <img src="stylesheets/img-mobile/villa.png" alt="">
+      <a class="barText" href="">Villa C</a>
+    </div>
+    <div class="col-12 m-0 p-0">
+      <img src="stylesheets/img-mobile/villa.png" alt="">
+      <a class="barText" href="">Villa D</a>
+    </div>
+    
+  </div>
 </div>
 
 <!-- OWNER BENEFITS -->
@@ -103,17 +141,19 @@
     <p>Naman Residences is an integrated part of Naman Retreat. Owners will have the privilege of enjoying our top-notch class public facilities such as pools, restaurants, bars, spa, and kids club.<p>
     <p>Villas are fully furnished with all 5-star standard furniture and fixtures with high Committed Return on Investment rate.<p>
     <p>Owners will benefit from our attractive rental programs operated by Naman Retreat.<p>
-    <p>Owners will be entitled to privileges such as 20% discounts on public rates for accommodation, F&B services, spa, and gym.<p>
+    <p>Owners will be entitled to privileges such as 20% discounts on public rates for accommodation, F&B services, spa, and gym.
     <p>Owners will be entitled to permanent Ownership Certificate with long term land use right for Vietnamese and 50 years plus applicable extension for Foreigners.</p>
   </div>
-  <img src="images/yacht-owner.png" alt="">
+  <img class="d-block d-xl-none" src="stylesheets/img-default/yacht-owner.png" alt="">
+  <img class="d-none d-xl-block" src="stylesheets/img-pc/yacht-xl.png" alt="">
+  
 </div> 
 
-<!-- RENTAL PROGRAM-->
+<!-- RENTAL PROGRAM -->
 <div class="descriptionDiv" id="rental">
   <h1 class = "descriptionTitle">RENTAL PROGRAM</h1>
   <div class="descriptionText boxTemplate">
-    <img class="imgTemplate" src="images/lake-rental.png" alt="" />
+    <img class="imgTemplate" src="stylesheets/img-default/lake-rental.png" alt="" />
     <p class="pTemplate">
       "The Developer will operate Rental Program for Villa Owners by putting Naman Residences Villas into Naman Retreat's inventory for regular rental purposes. 
         Villa Owners are entitled to 40 days complimentary use of their Villa annually (terms and conditions applied) with exclusive owner benefits plus a 85% share of Rental Profit of the Unit after operating expenses and applicable fees. 
@@ -121,7 +161,7 @@
     <p class="pTemplate"> For further information on the rental program, please kindly contact our Residential Sales Team by calling us or emailling us at: </p>
     <p class="pTemplate">
       Tel: +84 (0) 909 833 888 <br>
-      Email: residences@namanretreat.com </p>
+      Email: residences@namanretreat.com</p>
   </div>
 </div>
 
@@ -130,58 +170,62 @@
   <h1 class = "descriptionTitle">RESTAURANTS & BARS</h1>
   <div class="descriptionText">
     <p>An array of local and international cuisines will be served in Naman Retreat Restaurant<br>
-        In-room dining options are possible. We speak your language!</p>
+       In-room dining options are possible. We speak your language!</p>
   </div>
 </div>
 
 <!-- BARS -->
 <div id="bars">
   <div class = "row">
-    <div class="col-md-6 m-md-0 p-md-0">
-      <img src="images/calgary-restaurant.png" alt=""/>
+    <div class="col-sm-12 col-md-6 m-0 p-0">
+      <img class="d-block d-xl-none" src="stylesheets/img-default/calgary-restaurant.png" alt=""/>
+      <img class="d-none d-xl-block" src="stylesheets/img-pc/calgary-xl.png" alt=""/>
       <a class="barText" href="">Hay Hay Restaurant</a>
     </div>
-    <div class="col-md-6 m-md-0 p-md-0">
-      <img src="images/calgary-restaurant.png" alt=""/>
+    <div class="col-sm-12 col-md-6 m-0 p-0">
+      <img class="d-block d-xl-none" src="stylesheets/img-default/calgary-restaurant.png" alt=""/>
+      <img class="d-none d-xl-block" src="stylesheets/img-pc/calgary-xl.png" alt=""/>
       <a class="barText" href="">B Lounge</a>
     </div>
   </div>
   <div class = "row">
-    <div class="col-md-6 m-md-0 p-md-0">
-      <img src="images/calgary-restaurant.png" alt=""/>
+    <div class="col-sm-12 col-md-6 m-0 p-0">
+      <img class="d-block d-xl-none" src="stylesheets/img-default/calgary-restaurant.png" alt=""/>
+      <img class="d-none d-xl-block" src="stylesheets/img-pc/calgary-xl.png" alt=""/>
       <a class="barText" href="">Cofftee Club</a>
     </div>
-    <div class="col-md-6 m-md-0 p-md-0">
-      <img src="images/calgary-restaurant.png" alt=""/>
+    <div class="col-sm-12 col-md-6 m-0 p-0">
+      <img class="d-block d-xl-none" src="stylesheets/img-default/calgary-restaurant.png" alt=""/>
+      <img class="d-none d-xl-block" src="stylesheets/img-pc/calgary-xl.png" alt=""/>
       <a class="barText" href="">Sitini Bar</a>
     </div>
   </div>
-</div>
+</div>  
 
 <!-- PURE SPA -->
 <div class="descriptionDiv" id="spa">
     <h1 class = "descriptionTitle">PURE SPA</h1>
   <div id="gallery">
-    <img src="images/malta-spa.png" alt="">
+    <img src="stylesheets/img-default/malta-spa.png" alt="">
     <a href="" class="btn btn-outline-light btn-lg">Gallery</a>
   </div> 
   <div class="content-wrapper">
     <div class="content">
       <div class="content-title row">
         <div class="title-wrap col-md-9">
-          <img src="images/pure-logo.png" alt="">
+          <img src="stylesheets/img-default/pure-logo.png" alt="">
           <h1>A No-wall Spa Lifestyle</h1>
         </div>
         <div class="col-md-3"></div>
       </div>
       <div class="content-detail row">
-        <div class="detail-left col-md-6">
+        <div class="detail-left col-sm-6 col-md-6">
           <p>The moment you retreat into our free flowing, no wall sanctuary, you have entered a world of pure bliss. 
              With 15 luxury treatment rooms, male and female jacuzzi, sauna and steam rooms, gym, yoga pavilion...Pure Spa envelops you in a healing and tranquil cocoon. 
              Enjoy treatments ranging from our signature Naman massage to shiatsu, and be pampered with our unique body wraps, pedicures, or create your own indulgence.</p>
           <p>As a pioneer in health and wellness holidays within Vietnam we are dedicated to the philosophy of holistic</p>
         </div>
-        <div class="detail-right col-md-6">
+        <div class="detail-right col-sm-6 col-md-6">
           <p>wellness - mind, body and soul. We offer 3 to 14 day Detox Journeys focused on cleansing and purifying your mind and body, restoring balance to your life. 
              Within each Detox Journey, you are fully engaged in spa treatments, healthy meal plans, colon hydrotherapy, physical activities and wellness therapies. 
              It's time to experience unique wellness journeys that go beyond typical spa “treatments”.</p>
@@ -199,8 +243,7 @@
         <p class="descriptionText">
           Whether you seek adventure, experience, enrichment, culture or history our Namantastic Team can guide you through a wide range of activities: tai chi, yoga, hiking, biking, beach meditation... 
           Awaken your mind and explore the traditional Vietnamese skills of fishing, gardening, cooking/cocktail classes or basket boating. We can also organize tours to My Son Sanctuary, Marble Mountains, Hoi An Ancient Town and the Imperial city of Hue, amongst many others. 
-          Enrich your life with experiences of Naman Retreat and Central Vietnam.
-        </p>
+          Enrich your life with experiences of Naman Retreat and Central Vietnam.</p>
         <div id="links">
           <a href="" class="btn btn-outline-light btn-lg">SPORT</a>
           <a href="" class="btn btn-outline-light btn-lg">RECREATION</a>
@@ -208,32 +251,32 @@
           <a href="" class="btn btn-outline-light btn-lg">CULTURAL ACTIVITIES</a>
         </div>
   </div> 
-
   <div class="whiteBar" id="sport">
     <div class="row">
-      <div class="col-md-6 m-md-0 descriptionText descriptionDiv" id="sportContent">
+      <div class="col-sm-12 col-md-6 m-0 descriptionText descriptionDiv order-sm-2 order-md-1" id="sportContent">
         <h1 class="descriptionTitle cursiveFont">Sport</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
            It was popularised in the 1960s with the release of</p>
         <div id="scrollbar">
-          <img src="images/scrollbar.png" alt="">
+          <img src="stylesheets/img-default/scrollbar.png" alt="">
         </div>
       </div>
-      <div class="col-md-6 m-md-0 p-md-0">
-        <img src="images/blue-sport.png" alt="">
+      <div class="col-sm-12 col-md-6 m-0 p-0 order-sm-1 order-md-2" id="sportImage">
+        <img class="d-sm-none d-md-block" src="stylesheets/img-default/blue-sport.png" alt="">
+        <img class="d-sm-block d-md-none" src="stylesheets/img-mobile/blue-mod.png" alt="">
       </div>
     </div>
   </div> 
-</div> 
+</div>  
 
 <hr>
 
 <!-- DEVELOPER -->
 <div class="descriptionDiv" id="developer">
   <h1 class = "descriptionTitle">DEVELOPER</h1>
-  <div class="descriptionText boxTemplate">
-    <img class="imgTemplate" src="images/thanhdo-logo.png" style="width: 480px; height: 325px" alt="" />
+  <div class="descriptionText boxTemplate" id="thanhDo">
+    <img class="imgTemplate" src="stylesheets/img-default/thanhdo-logo.png" alt="" />
     <h1 class="cursiveFont">Thanh Do Group</h1>
     <p class="pTemplate">
       Thanh Do Investment Development and Construction JSC. has been established since 1992 by our experienced, strategic & leading team. 
@@ -241,9 +284,8 @@
     <p class="pTemplate">
       With a great drive of passion, strong financial capability and more than 20 years of experience in the real estate sector, we are proud to introduce The Empire Residences & Resorts.</p>
   </div>
-  <br><br>
-  <div class="descriptionText boxTemplate">
-    <img class="imgTemplate" src="images/empire-logo.png" style="width: 480px; height: 325px" alt="" />
+  <div class="descriptionText boxTemplate" id="empire">
+    <img class="imgTemplate" src="stylesheets/img-default/empire-logo.png" alt="" />
     <h1 class="cursiveFont">The Empire</h1>
     <p class="pTemplate">Ideally situated at the most wanted location of Danang, Truong Sa road, which is known as the “5 stars road”, the Empire Residences & Resorts is the world-class real estate project with a dynamic profile of properties, featuring sophisticated design, state-of-the-art facilities and a world of lifestyles.</p>
   </div>
@@ -256,10 +298,10 @@
     <p>For general questions, bug reports and documentation inquiry please fill out the form below.</p>
   </div>
   <div class = "row">
-      <div class="col-md-6 m-md-0 p-md-0" id="leftContact">
-        <img src="images/footer-leftContent.png" alt=""/>
+      <div class="col-sm-12 col-md-6 m-0 p-0" id="leftContact">
+        <img src="stylesheets/img-default/lakehouse-leftContact.png" alt="" id="leftContactBG"/>
         <div id="info">
-          <img src="images/namanLogo.png" alt="">
+          <img src="stylesheets/img-default/namanLogo.png" alt="" id="namanLogo">
           <h1>Naman Retreat, Vietnam</h1>
           <p>Truong Sa Road, Ngu Hanh Son District, Danang</p>
           <p>Tel</p>
@@ -268,24 +310,24 @@
           <p id="email">residences@namanretreat.com</p>
         </div>
       </div>
-      <div class="col-md-6 m-md-0 p-md-0" id="rightContact">
+      <div class="col-sm-12 col-md-6 m-0 p-0" id="rightContact">
           <iframe width="512" height="557" id="gmap_canvas" src="https://maps.google.com/maps?q=naman&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         <div id="social">
           <div id="iconBar">
-            <a href="https://www.facebook.com/NamanRetreat/"><img src="images/facebook-icon.png" alt=""></a>
-            <a href="https://twitter.com/naman_retreat"><img src="images/twitter-icon.png" alt=""></a>
-            <a href="https://www.linkedin.com/company/naman-retreat"><img src="images/linkedin-icon.png" alt=""></a>
-            <a href="https://www.instagram.com/namanretreat/?hl=vi"><img src="images/instagram-icon.png" alt=""></a>
-            <a href="https://www.tripadvisor.com.vn/Hotel_Review-g298085-d7617524-Reviews-Naman_Retreat-Da_Nang.html"><img src="images/tripadvisor-icon.png" alt=""></a>
-            <a href="https://namanretreat.com/media/1135/naman_retreat_brochure.pdf"><img src="images/pdf-icon.png" alt=""></a>
+            <a href="https://www.facebook.com/NamanRetreat/"><img src="stylesheets/img-default/facebook-icon.png" alt=""></a>
+            <a href="https://twitter.com/naman_retreat"><img src="stylesheets/img-default/twitter-icon.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/naman-retreat"><img src="stylesheets/img-default/linkedin-icon.png" alt=""></a>
+            <a href="https://www.instagram.com/namanretreat/?hl=vi"><img src="stylesheets/img-default/instagram-icon.png" alt=""></a>
+            <a href="https://www.tripadvisor.com.vn/Hotel_Review-g298085-d7617524-Reviews-Naman_Retreat-Da_Nang.html"><img src="stylesheets/img-default/tripadvisor-icon.png" alt=""></a>
+            <a href="https://namanretreat.com/media/1135/naman_retreat_brochure.pdf"><img src="stylesheets/img-default/pdf-icon.png" alt=""></a>
           </div>
-          <p>© 2015 Namanretreat.com. All Rights Reserved</p>
+          <p class="d-block d-xl-none">© 2015 Namanretreat.com. All Rights Reserved</p>
       </div>
     </div>
   </div>
-</div> <!--END CONTACT-->
+</div> 
 
-</div> <!--END MAINCONTENT-->
+</div> 
 
 </body>
 </html>
