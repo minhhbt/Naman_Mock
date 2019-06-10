@@ -1,7 +1,4 @@
-@media screen and (max-width: 1920px) {
-  @-ms-viewport {
-    width: 1920px;
-  }
+@media only screen and (min-width: 1025px) {
   body {
     width: 1920px;
   }
@@ -29,7 +26,7 @@
     left: 447px;
   }
   #mainNavbar {
-    width: 1920px;
+    width: 100%;
   }
   #mainNavbar .navbar-brand img {
     margin: 0 320px 0 45px;
@@ -74,6 +71,38 @@
   }
   #mainContent #exp .centerDiv p {
     font-size: 17px;
+  }
+  #mainContent #exp #sport {
+    height: 512px;
+  }
+  #mainContent #exp #sport #sportContent {
+    height: 512px;
+  }
+  #mainContent #exp #sport #sportImage img {
+    height: 512px;
+  }
+  #mainContent #developer .cursiveFont {
+    font-size: 36px;
+  }
+  #mainContent #developer .pTemplate {
+    font-size: 16.5px;
+  }
+  #mainContent #contact #leftContact #leftContactBG {
+    width: 100%;
+    height: 705px;
+  }
+  #mainContent #contact #rightContact {
+    height: 705px;
+  }
+  #mainContent #contact #rightContact iframe {
+    width: 960px;
+    height: 621px;
+  }
+  #mainContent #contact #rightContact #social {
+    height: 84px;
+  }
+  #mainContent #contact #rightContact #social #iconBar {
+    margin: 30px auto;
   }
 }
 /*# sourceMappingURL=pc.css.map */

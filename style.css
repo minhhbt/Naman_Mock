@@ -105,7 +105,7 @@ body .cursiveFont {
 #mainNavbar {
   font-size: 14px;
   background: white;
-  width: 100%;
+  width: 1024px;
   height: 60px;
   padding: 0;
   margin: 0 auto;
@@ -442,4 +442,239 @@ body .cursiveFont {
 #mainContent #contact #rightContact #social #iconBar a {
   margin: 0px 16px;
 }
-/*# sourceMappingURL=tablet.css.map */
+
+@media only screen and (max-width: 640px) {
+  body {
+    width: 640px;
+  }
+  body hr {
+    margin: 610px auto 0 auto;
+  }
+  body .descriptionText {
+    width: 600px;
+  }
+  body .boxTemplate {
+    background-image: url("images/mobile/pattern-mod.png");
+    width: 600px;
+    height: 951px;
+    padding: 45px;
+  }
+  body .imgTemplate {
+    width: 512px;
+    height: 520px;
+    margin: 0 0 45px 0;
+  }
+  body .pTemplate {
+    font-size: 15.25px;
+  }
+  body .whiteBar {
+    width: 600px;
+    left: 20px;
+  }
+  #mainNavbar {
+    width: 640px;
+  }
+  #mainNavbar .leftLinks li {
+    margin-right: 34px;
+  }
+  #mainContent #landingDiv {
+    background-position: center;
+  }
+  #mainContent #destination img {
+    width: 600px;
+  }
+  #mainContent #overview {
+    background: url("images/mobile/overview-mod.png");
+    background-position: center;
+    height: 400px;
+  }
+  #mainContent #overview .centerDiv {
+    padding-top: 185px;
+  }
+  #mainContent #overview .centerDiv p {
+    color: black;
+    position: relative;
+    z-index: 1px;
+    bottom: -220px;
+  }
+  #mainContent #villas {
+    padding: 210px 0 0 0;
+  }
+  #mainContent #villas .barText {
+    font-family: Niconne;
+    bottom: 30px;
+    left: 270px;
+  }
+  #mainContent #ownerBenefits img {
+    width: 100%;
+  }
+  #mainContent #spa {
+    width: 600px;
+  }
+  #mainContent #spa .content-wrapper {
+    margin-top: 0;
+  }
+  #mainContent #spa .content {
+    padding: 0;
+  }
+  #mainContent #spa .content-title .title-wrap {
+    display: block;
+    padding: 40px 0 0 20px;
+  }
+  #mainContent #spa .content-title img {
+    width: 80px;
+    height: 55px;
+    float: right;
+    padding: 0 20px;
+  }
+  #mainContent #spa .content-title h1 {
+    display: inline-block;
+    margin: 20px 0 0 0;
+  }
+  #mainContent #spa .content-detail p {
+    width: 260px;
+  }
+  #mainContent #spa .content-detail div {
+    padding: 0 20px;
+  }
+  #mainContent #exp #sport {
+    bottom: -530px;
+    height: 766px;
+  }
+  #mainContent #exp #sport #sportContent {
+    height: 406px;
+  }
+  #mainContent #exp #sport #sportImage img {
+    height: 360px;
+  }
+  #mainContent #developer .boxTemplate {
+    height: 696px;
+  }
+  #mainContent #developer .imgTemplate {
+    width: 512px;
+    height: 325px;
+  }
+  #mainContent #contact #leftContact #leftContactBG {
+    width: 100%;
+    height: 609px;
+  }
+  #mainContent #contact #rightContact {
+    height: 507px;
+  }
+  #mainContent #contact #rightContact iframe {
+    width: 640px;
+    height: 359px;
+  }
+  #mainContent #contact #rightContact #social {
+    height: 148px;
+  }
+}
+
+@media only screen and (min-width: 1025) and (max-width: 1920px) {
+  body {
+    width: 1920px;
+  }
+  body h1 {
+    font-size: 60px;
+  }
+  body .descriptionText {
+    font-size: 18px;
+    width: 1024px;
+  }
+  body .btn {
+    font-size: 24px;
+  }
+  body .boxTemplate {
+    background-image: url("images/default/pattern-rental.png");
+    background-repeat: no-repeat;
+    width: 1024px;
+  }
+  body .imgTemplate {
+    width: 480px;
+    height: 488px;
+  }
+  body .whiteBar {
+    width: 1024px;
+    left: 447px;
+  }
+  #mainNavbar {
+    width: 1920px;
+  }
+  #mainNavbar .navbar-brand img {
+    margin: 0 320px 0 45px;
+  }
+  #mainContent #landingDiv {
+    background: url("images/pc/deer-xl.png");
+    height: 1080px;
+  }
+  #mainContent #landingDiv .centerDiv {
+    padding-top: 500px;
+  }
+  #mainContent #landingDiv .centerDiv p {
+    font-size: 24px;
+  }
+  #mainContent #destination img {
+    width: 1024px;
+  }
+  #mainContent #overview {
+    background: url("images/pc/mountain-xl.png");
+    height: 828px;
+  }
+  #mainContent #overview .centerDiv {
+    padding-top: 391px;
+  }
+  #mainContent #ownerBenefits img {
+    width: 100%;
+    height: 638px;
+  }
+  #mainContent #rental .pTemplate {
+    font-size: 17px;
+  }
+  #mainContent #spa {
+    width: 1024px;
+  }
+  #mainContent #spa .content-detail p {
+    font-size: 18px;
+    width: 415px;
+  }
+  #mainContent #exp {
+    background: url("images/pc/landscape-xl.png");
+    height: 868px;
+  }
+  #mainContent #exp .centerDiv p {
+    font-size: 17px;
+  }
+  #mainContent #exp #sport {
+    height: 512px;
+  }
+  #mainContent #exp #sport #sportContent {
+    height: 512px;
+  }
+  #mainContent #exp #sport #sportImage img {
+    height: 512px;
+  }
+  #mainContent #developer .cursiveFont {
+    font-size: 36px;
+  }
+  #mainContent #developer .pTemplate {
+    font-size: 16.5px;
+  }
+  #mainContent #contact #leftContact #leftContactBG {
+    width: 100%;
+    height: 705px;
+  }
+  #mainContent #contact #rightContact {
+    height: 705px;
+  }
+  #mainContent #contact #rightContact iframe {
+    width: 960px;
+    height: 621px;
+  }
+  #mainContent #contact #rightContact #social {
+    height: 84px;
+  }
+  #mainContent #contact #rightContact #social #iconBar {
+    margin: 30px auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
