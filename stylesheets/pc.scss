@@ -1,0 +1,129 @@
+@media only screen and (min-width: 1025px) {
+	body {
+		width: 1920px;
+		h1 {
+			font-size: 60px;
+		}
+		.descriptionText {
+			font-size: 18px;
+			width: 1024px;
+		}
+		.btn {
+			font-size: 24px;
+		}
+		.boxTemplate {
+			background-image: url("img-default/pattern-rental.png");
+			background-repeat: no-repeat;
+			width: 1024px;
+		}
+		.imgTemplate {
+			width: 480px;
+			height: 488px;
+		}
+		.whiteBar {
+			width: 1024px;
+			left: 447px;
+		}
+	}
+	#mainNavbar {
+		width: 100%;
+		.navbar-brand {
+			img {
+				margin: 0 320px 0 45px;
+			}
+		}
+	}
+	#mainContent {
+		#landingDiv {
+			background: url("img-pc/deer-xl.png");
+			height: 1080px;
+			.centerDiv {
+				padding-top: 500px;
+				p {
+					font-size: 24px;
+				}
+			}
+		}
+		#destination {
+			img {
+				width: 1024px;
+			}
+		}
+		#overview {
+			background: url("img-pc/mountain-xl.png");
+			height: 828px;
+			.centerDiv {
+				padding-top: 391px;
+			}
+		}
+		#ownerBenefits {
+			img {
+				width: 100%;
+				height: 638px;
+			}
+		}
+		#rental {
+			.pTemplate {
+				font-size: 17px;
+			}
+		}
+		#spa {
+			width: 1024px;
+			.content-detail {
+				p {
+					font-size: 18px;
+					width: 415px;
+				}
+			}
+		}
+		#exp {
+			background: url("img-pc/landscape-xl.png");
+			height: 868px;
+			.centerDiv {
+				p {
+					font-size: 17px;
+				}
+			}
+			#sport {
+				height: 512px;
+				#sportContent {
+					height: 512px;
+				}
+				#sportImage {
+					img {
+						height: 512px;
+					}
+				}
+			}
+		}
+		#developer {
+			.cursiveFont {
+				font-size: 36px;
+			}
+			.pTemplate {
+				font-size: 16.5px;
+			}
+		}
+		#contact {
+			#leftContact {
+				#leftContactBG {
+					width: 100%;
+					height: 705px;
+				}
+			}
+			#rightContact {
+				height: 705px;
+				iframe {
+					width: 960px;
+					height: 621px;
+				}
+				#social {
+					height: 84px;
+					#iconBar {
+						margin: 30px auto;
+					}
+				}
+			}
+		}
+	}
+}
