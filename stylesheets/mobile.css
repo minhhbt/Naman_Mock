@@ -27,7 +27,7 @@
     left: 20px;
   }
   #mainNavbar {
-    width: 640px;
+    width: 100%;
   }
   #mainNavbar .leftLinks li {
     margin-right: 34px;
