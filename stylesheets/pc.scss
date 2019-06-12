@@ -50,10 +50,13 @@
 			}
 		}
 		#overview {
-			background: url("img-pc/mountain-xl.png");
+			background: url("img-pc/mountain-xl-blur.png");
 			height: 828px;
 			.centerDiv {
 				padding-top: 391px;
+				p {
+					font-size: 18px;
+				}
 			}
 		}
 		#ownerBenefits {

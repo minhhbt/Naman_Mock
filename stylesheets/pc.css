@@ -45,11 +45,14 @@
     width: 1024px;
   }
   #mainContent #overview {
-    background: url("img-pc/mountain-xl.png");
+    background: url("img-pc/mountain-xl-blur.png");
     height: 828px;
   }
   #mainContent #overview .centerDiv {
     padding-top: 391px;
+  }
+  #mainContent #overview .centerDiv p {
+    font-size: 18px;
   }
   #mainContent #ownerBenefits img {
     width: 100%;

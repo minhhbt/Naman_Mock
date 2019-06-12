@@ -124,6 +124,10 @@ body .cursiveFont {
   margin-right: 45px;
 }
 
+#mainNavbar .leftLinks li a:hover {
+  color: #babc33;
+}
+
 #mainNavbar .rightLinks {
   height: 60px;
   font-weight: 400;
@@ -145,6 +149,10 @@ body .cursiveFont {
   color: black;
   text-align: center;
   padding: 0 35px;
+}
+
+#mainNavbar #en a:hover {
+  color: #babc33;
 }
 
 #mainNavbar #bookNow {
@@ -217,6 +225,13 @@ body .cursiveFont {
 
 #mainContent #bars img {
   width: 100%;
+}
+
+#mainContent #bars img:hover {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 #mainContent #restaurant {
@@ -442,5 +457,13 @@ body .cursiveFont {
 
 #mainContent #contact #rightContact #social #iconBar a {
   margin: 0px 16px;
+}
+
+#mainContent #contact #rightContact #social #iconBar a img {
+  opacity: 0.5;
+}
+
+#mainContent #contact #rightContact #social #iconBar a img:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=tablet.css.map */

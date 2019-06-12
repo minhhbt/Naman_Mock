@@ -105,6 +105,9 @@ body {
 	.leftLinks {
 		li {
 			margin-right: 45px;
+			a:hover {
+				color: #babc33;
+			}
 		}
 	}
 	.rightLinks {
@@ -126,6 +129,9 @@ body {
 			color: black;
 			text-align: center;
 			padding: 0 35px;
+			&:hover {
+				color: #babc33;
+			}
 		}
 	}
 	#bookNow {
@@ -185,6 +191,10 @@ body {
 	#bars {
 		img {
 			width: 100%;
+			&:hover {
+				filter: blur(2px);
+				transition: .4s ease-in-out;
+			}
 		}
 	}
 	#restaurant {
@@ -364,6 +374,12 @@ body {
 					margin: 40px auto;
 					a {
 						margin: 0px 16px;
+						img {
+							opacity: 0.5;
+							&:hover {
+								opacity: 1;
+							}
+						}
 					}
 				}
 			}
