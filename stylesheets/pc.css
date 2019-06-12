@@ -1,7 +1,4 @@
 @media only screen and (min-width: 1025px) {
-  body {
-    width: 1920px;
-  }
   body h1 {
     font-size: 60px;
   }
@@ -55,7 +52,6 @@
     font-size: 18px;
   }
   #mainContent #ownerBenefits img {
-    width: 100%;
     height: 638px;
   }
   #mainContent #rental .pTemplate {
@@ -98,7 +94,6 @@
     height: 705px;
   }
   #mainContent #contact #rightContact iframe {
-    width: 960px;
     height: 621px;
   }
   #mainContent #contact #rightContact #social {
