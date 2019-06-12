@@ -19,10 +19,6 @@
 			width: 480px;
 			height: 488px;
 		}
-		.whiteBar {
-			width: 1024px;
-			left: 447px;
-		}
 	}
 	#mainNavbar {
 		width: 100%;
@@ -34,7 +30,7 @@
 	}
 	#mainContent {
 		#landingDiv {
-			background: url("img-pc/deer-xl.png");
+			background: url("img-pc/deer-xl.png") center;
 			height: 1080px;
 			.centerDiv {
 				padding-top: 500px;
@@ -49,7 +45,7 @@
 			}
 		}
 		#overview {
-			background: url("img-pc/mountain-xl-blur.png");
+			background: url("img-pc/mountain-xl-blur.png") center no-repeat;
 			height: 828px;
 			.centerDiv {
 				padding-top: 391px;
@@ -78,7 +74,7 @@
 			}
 		}
 		#exp {
-			background: url("img-pc/landscape-xl.png");
+			background: url("img-pc/landscape-xl.png") center;
 			height: 868px;
 			.centerDiv {
 				p {

@@ -19,10 +19,6 @@
   body .pTemplate {
     font-size: 15.25px;
   }
-  body .whiteBar {
-    width: 600px;
-    left: 20px;
-  }
   #mainNavbar .leftLinks li {
     margin-right: 34px;
   }
@@ -33,8 +29,7 @@
     width: 600px;
   }
   #mainContent #overview {
-    background: url("img-mobile/overview-mod.png");
-    background-position: center;
+    background: url("img-mobile/overview-mod.png") center;
     height: 400px;
   }
   #mainContent #overview .centerDiv {
@@ -90,8 +85,8 @@
     padding: 0 20px;
   }
   #mainContent #exp #sport {
-    bottom: -530px;
     height: 766px;
+    bottom: -530px;
   }
   #mainContent #exp #sport #sportContent {
     height: 406px;
