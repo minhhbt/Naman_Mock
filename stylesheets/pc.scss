@@ -5,7 +5,7 @@
 		}
 		.descriptionText {
 			font-size: 18px;
-			// padding: 0 23%;
+			padding: 0 23%;
 		}
 		.btn {
 			font-size: 24px;
@@ -41,7 +41,7 @@
 		}
 		#destination {
 			img {
-				width: 1024px;
+				width: 54%;
 			}
 		}
 		#overview {
@@ -84,9 +84,11 @@
 			#sport {
 				height: 512px;
 				#sportContent {
+					// width: 1024px;
 					height: 512px;
 				}
 				#sportImage {
+					// width: 1024px;
 					img {
 						height: 512px;
 					}

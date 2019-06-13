@@ -4,6 +4,7 @@
   }
   body .descriptionText {
     font-size: 18px;
+    padding: 0 23%;
   }
   body .btn {
     font-size: 24px;
@@ -34,7 +35,7 @@
     font-size: 24px;
   }
   #mainContent #destination img {
-    width: 1024px;
+    width: 54%;
   }
   #mainContent #overview {
     background: url("img-pc/mountain-xl-blur.png") center no-repeat;

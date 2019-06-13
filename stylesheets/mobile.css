@@ -22,9 +22,6 @@
   #mainContent #landingDiv {
     background-position: center;
   }
-  #mainContent #destination img {
-    width: 600px;
-  }
   #mainContent #overview {
     background: url("img-mobile/overview-mod.png") center;
     height: 400px;
