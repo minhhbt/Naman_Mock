@@ -16,8 +16,7 @@ body hr {
 }
 
 body .fullBackground {
-  background: no-repeat center;
-  background-size: cover;
+  background: cover no-repeat center;
   width: 100%;
 }
 
@@ -43,7 +42,7 @@ body .descriptionTitle {
 body .descriptionText {
   font-size: 15.25px;
   text-align: justify;
-  width: 894px;
+  padding: 0 6%;
   margin: auto;
 }
 
@@ -169,7 +168,7 @@ body .cursiveFont {
 }
 
 #mainContent #landingDiv {
-  background: url("img-default/deer-background.png");
+  background: url("img-default/deer-background.png") center;
   height: 770px;
 }
 
@@ -190,7 +189,7 @@ body .cursiveFont {
 }
 
 #mainContent #overview {
-  background: url("img-default/mountain-overview.png");
+  background: url("img-default/mountain-overview.png") center;
   height: 538px;
 }
 

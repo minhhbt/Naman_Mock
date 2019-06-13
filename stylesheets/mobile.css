@@ -2,9 +2,6 @@
   body hr {
     margin: 610px auto 0 auto;
   }
-  body .descriptionText {
-    width: 600px;
-  }
   body .boxTemplate {
     background-image: url("img-mobile/pattern-mod.png");
     width: 600px;

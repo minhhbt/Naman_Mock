@@ -12,8 +12,7 @@ body {
 		margin: 220px auto 0 auto;
 	}
 	.fullBackground {
-		background: no-repeat center;
-		background-size: cover;
+		background: cover no-repeat center;
 		width: 100%;
 	}
 	.centerDiv {
@@ -35,7 +34,7 @@ body {
 	.descriptionText {
 		font-size: 15.25px;
 		text-align: justify;
-		width: 894px;
+		padding: 0 6%;
 		margin: auto;
 	}
 	.btn {
@@ -146,7 +145,7 @@ body {
 }
 #mainContent {
 	#landingDiv {
-		background: url("img-default/deer-background.png");
+		background: url("img-default/deer-background.png") center;
 		height: 770px;
 		.centerDiv {
 			padding-top: 348px;
@@ -162,7 +161,7 @@ body {
 		}
 	}
 	#overview {
-		background: url("img-default/mountain-overview.png");
+		background: url("img-default/mountain-overview.png") center;
 		height: 538px;
 		.centerDiv {
 			padding-top: 210px;
