@@ -2,7 +2,7 @@ body {
   font-family: Josefin Sans;
   font-weight: 300;
   color: white;
-  width: 1024px;
+  width: 100%;
   margin: auto;
 }
 
@@ -16,9 +16,7 @@ body hr {
 }
 
 body .fullBackground {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: cover no-repeat center;
   width: 100%;
 }
 
@@ -44,7 +42,7 @@ body .descriptionTitle {
 body .descriptionText {
   font-size: 15.25px;
   text-align: justify;
-  width: 894px;
+  padding: 0 6%;
   margin: auto;
 }
 
@@ -90,11 +88,9 @@ body .barText {
 }
 
 body .whiteBar {
-  background: white;
-  width: 894px;
+  width: 100%;
   height: 85px;
   position: absolute;
-  left: 65px;
 }
 
 body .cursiveFont {
@@ -124,6 +120,10 @@ body .cursiveFont {
   margin-right: 45px;
 }
 
+#mainNavbar .leftLinks li a:hover {
+  color: #babc33;
+}
+
 #mainNavbar .rightLinks {
   height: 60px;
   font-weight: 400;
@@ -147,6 +147,10 @@ body .cursiveFont {
   padding: 0 35px;
 }
 
+#mainNavbar #en a:hover {
+  color: #babc33;
+}
+
 #mainNavbar #bookNow {
   background: #babc33;
 }
@@ -164,7 +168,7 @@ body .cursiveFont {
 }
 
 #mainContent #landingDiv {
-  background: url("img-default/deer-background.png");
+  background: url("img-default/deer-background.png") center;
   height: 770px;
 }
 
@@ -185,7 +189,7 @@ body .cursiveFont {
 }
 
 #mainContent #overview {
-  background: url("img-default/mountain-overview.png");
+  background: url("img-default/mountain-overview.png") center;
   height: 538px;
 }
 
@@ -206,7 +210,7 @@ body .cursiveFont {
 }
 
 #mainContent #ownerBenefits img {
-  width: 1024px;
+  width: 100%;
   padding-bottom: 0;
   margin-top: 55px;
 }
@@ -217,6 +221,13 @@ body .cursiveFont {
 
 #mainContent #bars img {
   width: 100%;
+}
+
+#mainContent #bars img:hover {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 #mainContent #restaurant {
@@ -307,7 +318,7 @@ body .cursiveFont {
 }
 
 #mainContent #exp {
-  background: url("img-default/landscape-xp.png");
+  background: url("img-default/landscape-xp.png") center;
   height: 806px;
   position: relative;
   margin-top: -85px;
@@ -442,5 +453,13 @@ body .cursiveFont {
 
 #mainContent #contact #rightContact #social #iconBar a {
   margin: 0px 16px;
+}
+
+#mainContent #contact #rightContact #social #iconBar a img {
+  opacity: 0.5;
+}
+
+#mainContent #contact #rightContact #social #iconBar a img:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=tablet.css.map */

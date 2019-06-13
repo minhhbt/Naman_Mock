@@ -1,13 +1,9 @@
 @media only screen and (min-width: 1025px) {
-  body {
-    width: 1920px;
-  }
   body h1 {
     font-size: 60px;
   }
   body .descriptionText {
     font-size: 18px;
-    width: 1024px;
   }
   body .btn {
     font-size: 24px;
@@ -21,10 +17,6 @@
     width: 480px;
     height: 488px;
   }
-  body .whiteBar {
-    width: 1024px;
-    left: 447px;
-  }
   #mainNavbar {
     width: 100%;
   }
@@ -32,7 +24,7 @@
     margin: 0 320px 0 45px;
   }
   #mainContent #landingDiv {
-    background: url("img-pc/deer-xl.png");
+    background: url("img-pc/deer-xl.png") center;
     height: 1080px;
   }
   #mainContent #landingDiv .centerDiv {
@@ -45,14 +37,16 @@
     width: 1024px;
   }
   #mainContent #overview {
-    background: url("img-pc/mountain-xl.png");
+    background: url("img-pc/mountain-xl-blur.png") center no-repeat;
     height: 828px;
   }
   #mainContent #overview .centerDiv {
     padding-top: 391px;
   }
+  #mainContent #overview .centerDiv p {
+    font-size: 18px;
+  }
   #mainContent #ownerBenefits img {
-    width: 100%;
     height: 638px;
   }
   #mainContent #rental .pTemplate {
@@ -66,7 +60,7 @@
     width: 415px;
   }
   #mainContent #exp {
-    background: url("img-pc/landscape-xl.png");
+    background: url("img-pc/landscape-xl.png") center;
     height: 868px;
   }
   #mainContent #exp .centerDiv p {
@@ -95,7 +89,6 @@
     height: 705px;
   }
   #mainContent #contact #rightContact iframe {
-    width: 960px;
     height: 621px;
   }
   #mainContent #contact #rightContact #social {
