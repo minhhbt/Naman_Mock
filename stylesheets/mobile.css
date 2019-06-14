@@ -2,111 +2,111 @@
   body hr {
     margin: 610px auto 0 auto;
   }
-  body .boxTemplate {
-    background-image: url("img-mobile/pattern-mod.png");
+  body .box-template {
+    background-image: url("img-mobile/pattern-xs.png");
     width: 600px;
     height: 951px;
     padding: 45px;
   }
-  body .imgTemplate {
+  body .img-template {
     width: 512px;
     height: 520px;
     margin: 0 0 45px 0;
   }
-  body .pTemplate {
+  body .p-template {
     font-size: 15.25px;
   }
-  #mainNavbar .leftLinks li {
+  #main-navbar .leftLinks li {
     margin-right: 34px;
   }
-  #mainContent #landingDiv {
+  #main-content #landing {
     background-position: center;
   }
-  #mainContent #overview {
-    background: url("img-mobile/overview-mod.png") center;
+  #main-content #overview {
+    background: url("img-mobile/overview-xs.png") center;
     height: 400px;
   }
-  #mainContent #overview .centerDiv {
+  #main-content #overview .center-container {
     padding-top: 185px;
   }
-  #mainContent #overview .centerDiv p {
+  #main-content #overview .center-container p {
     color: black;
     position: relative;
     z-index: 1px;
     bottom: -220px;
   }
-  #mainContent #villas {
+  #main-content #villas {
     padding: 210px 0 0 0;
   }
-  #mainContent #villas img {
+  #main-content #villas img {
     width: 100%;
   }
-  #mainContent #villas .barText {
+  #main-content #villas .position-text {
     font-family: Niconne;
     bottom: 30px;
     left: 270px;
   }
-  #mainContent #ownerBenefits img {
+  #main-content #benefits img {
     width: 100%;
   }
-  #mainContent #spa {
+  #main-content #spa {
     width: 600px;
   }
-  #mainContent #spa .content-wrapper {
+  #main-content #spa .content-wrapper {
     margin-top: 0;
   }
-  #mainContent #spa .content {
+  #main-content #spa .content {
     padding: 0;
   }
-  #mainContent #spa .content-title .title-wrap {
+  #main-content #spa .content-title .title-wrap {
     display: block;
     padding: 40px 0 0 20px;
   }
-  #mainContent #spa .content-title img {
+  #main-content #spa .content-title img {
     width: 80px;
     height: 55px;
     float: right;
     padding: 0 20px;
   }
-  #mainContent #spa .content-title h1 {
+  #main-content #spa .content-title h1 {
     display: inline-block;
     margin: 20px 0 0 0;
   }
-  #mainContent #spa .content-detail p {
+  #main-content #spa .content-detail p {
     width: 260px;
   }
-  #mainContent #spa .content-detail div {
+  #main-content #spa .content-detail div {
     padding: 0 20px;
   }
-  #mainContent #exp #sport {
+  #main-content #experience #sport {
     height: 766px;
     bottom: -530px;
   }
-  #mainContent #exp #sport #sportContent {
+  #main-content #experience #sport #sport-content {
     height: 406px;
   }
-  #mainContent #exp #sport #sportImage img {
+  #main-content #experience #sport #sport-image img {
     height: 360px;
   }
-  #mainContent #developer .boxTemplate {
+  #main-content #developer .box-template {
     height: 696px;
   }
-  #mainContent #developer .imgTemplate {
+  #main-content #developer .img-template {
     width: 512px;
     height: 325px;
   }
-  #mainContent #contact #leftContact #leftContactBG {
+  #main-content #contact #left-contact #left-contact-bg {
     width: 100%;
     height: 609px;
   }
-  #mainContent #contact #rightContact {
+  #main-content #contact #right-contact {
     height: 507px;
   }
-  #mainContent #contact #rightContact iframe {
+  #main-content #contact #right-contact iframe {
     width: 100%;
     height: 359px;
   }
-  #mainContent #contact #rightContact #social {
+  #main-content #contact #right-contact #social {
     height: 148px;
   }
 }

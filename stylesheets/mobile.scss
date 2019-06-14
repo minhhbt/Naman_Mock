@@ -3,36 +3,36 @@
 		hr {
 			margin: 610px auto 0 auto;
 		}
-		.boxTemplate {
-			background-image: url("img-mobile/pattern-mod.png");
+		.box-template {
+			background-image: url("img-mobile/pattern-xs.png");
 			width: 600px;
 			height: 951px;
 			padding: 45px;
 		}
-		.imgTemplate {
+		.img-template {
 			width: 512px;
 			height: 520px;
 			margin: 0 0 45px 0;
 		}
-		.pTemplate {
+		.p-template {
 			font-size: 15.25px;
 		}
 	}
-	#mainNavbar {
+	#main-navbar {
 		.leftLinks {
 			li {
 				margin-right: 34px;
 			}
 		}
 	}
-	#mainContent {
-		#landingDiv {
+	#main-content {
+		#landing {
 			background-position: center;
 		}
 		#overview {
-			background: url("img-mobile/overview-mod.png") center;
+			background: url("img-mobile/overview-xs.png") center;
 			height: 400px;
-			.centerDiv {
+			.center-container {
 				padding-top: 185px;
 				p {
 					color: black;
@@ -47,13 +47,13 @@
 			img {
 				width: 100%;
 			}
-			.barText {
+			.position-text {
 				font-family: Niconne;
 				bottom: 30px;
 				left: 270px;
 			}
 		}
-		#ownerBenefits {
+		#benefits {
 			img {
 				width: 100%;
 			}
@@ -89,14 +89,14 @@
 				padding: 0 20px;
 			}
 		}
-		#exp {
+		#experience {
 			#sport {
 				height: 766px;
 				bottom: -530px;
-				#sportContent {
+				#sport-content {
 					height: 406px;
 				}
-				#sportImage {
+				#sport-image {
 					img {
 						height: 360px;
 					}
@@ -104,22 +104,22 @@
 			}
 		}
 		#developer {
-			.boxTemplate {
+			.box-template {
 				height: 696px;
 			}
-			.imgTemplate {
+			.img-template {
 				width: 512px;
 				height: 325px;
 			}
 		}
 		#contact {
-			#leftContact {
-				#leftContactBG {
+			#left-contact {
+				#left-contact-bg {
 					width: 100%;
 					height: 609px;
 				}
 			}
-			#rightContact {
+			#right-contact {
 				height: 507px;
 				iframe {
 					width: 100%;

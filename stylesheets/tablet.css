@@ -15,31 +15,31 @@ body hr {
   margin: 220px auto 0 auto;
 }
 
-body .fullBackground {
+body .full-background {
   background: cover no-repeat center;
   width: 100%;
 }
 
-body .centerDiv {
-  text-align: center;
-  width: 100%;
-  position: relative;
-}
-
-body .descriptionDiv {
+body .description-div {
   color: black;
   text-align: center;
   background: white;
   padding: 85px 0;
 }
 
-body .descriptionTitle {
+body .center-container {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+body .title-wrapper {
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 38px;
 }
 
-body .descriptionText {
+body .text-wrapper {
   font-size: 15.25px;
   text-align: justify;
   padding: 0 6.5%;
@@ -52,7 +52,7 @@ body .btn {
   border-radius: 0;
 }
 
-body .boxTemplate {
+body .box-template {
   background-color: #f5f6f6;
   background-image: url("img-default/pattern-rental.png");
   background-repeat: no-repeat;
@@ -62,14 +62,14 @@ body .boxTemplate {
   margin: auto;
 }
 
-body .imgTemplate {
+body .img-template {
   float: left;
   width: 483px;
   height: 483px;
   margin-right: 65px;
 }
 
-body .pTemplate {
+body .p-template {
   font-size: 13.5px;
   text-align: justify;
 }
@@ -78,7 +78,7 @@ body .row {
   margin: auto;
 }
 
-body .barText {
+body .position-text {
   font-size: 36px;
   font-weight: 400;
   color: white;
@@ -87,18 +87,18 @@ body .barText {
   left: 65px;
 }
 
-body .whiteBar {
+body .empty-div {
   width: 100%;
   height: 85px;
   position: absolute;
 }
 
-body .cursiveFont {
+body .cursive-font {
   font-family: Niconne;
   margin-bottom: 35px;
 }
 
-#mainNavbar {
+#main-navbar {
   font-size: 14px;
   background: white;
   width: 100%;
@@ -107,138 +107,138 @@ body .cursiveFont {
   margin: 0 auto;
 }
 
-#mainNavbar .navbar-brand img {
+#main-navbar .navbar-brand img {
   margin: 0 65px 0 45px;
 }
 
-#mainNavbar .nav-link {
+#main-navbar .nav-link {
   color: black;
   padding: 0;
 }
 
-#mainNavbar .leftLinks li {
+#main-navbar .leftLinks li {
   margin-right: 45px;
 }
 
-#mainNavbar .leftLinks li a:hover {
+#main-navbar .leftLinks li a:hover {
   color: #babc33;
 }
 
-#mainNavbar .rightLinks {
+#main-navbar .right-links {
   height: 60px;
   font-weight: 400;
 }
 
-#mainNavbar .rightLinks a {
+#main-navbar .right-links a {
   color: white;
   text-align: center;
   line-height: 60px;
 }
 
-#mainNavbar #namanRes {
+#main-navbar #naman-res {
   font-weight: 400;
   margin-right: 0;
 }
 
-#mainNavbar #en a {
+#main-navbar #en a {
   font-weight: 300;
   color: black;
   text-align: center;
   padding: 0 35px;
 }
 
-#mainNavbar #en a:hover {
+#main-navbar #en a:hover {
   color: #babc33;
 }
 
-#mainNavbar #bookNow {
+#main-navbar #book-now {
   background: #babc33;
 }
 
-#mainNavbar #bookNow a {
+#main-navbar #book-now a {
   padding: 0 11px;
 }
 
-#mainNavbar #registration {
+#main-navbar #registration {
   background: #13322b;
 }
 
-#mainNavbar #registration a {
+#main-navbar #registration a {
   padding: 0 25px;
 }
 
-#mainContent #landingDiv {
-  background: url("img-default/deer-background.png") center;
+#main-content #landing {
+  background: url("img-default/deer-landing.png") center;
   height: 770px;
 }
 
-#mainContent #landingDiv .centerDiv {
+#main-content #landing .center-container {
   padding-top: 348px;
 }
 
-#mainContent #destination {
+#main-content #destination {
   background: #f5f6f6;
 }
 
-#mainContent #destination .descriptionText {
+#main-content #destination .text-wrapper {
   padding-bottom: 65px;
 }
 
-#mainContent #destination img {
+#main-content #destination img {
   width: 87%;
 }
 
-#mainContent #overview {
+#main-content #overview {
   background: url("img-default/mountain-overview.png") center;
   height: 538px;
 }
 
-#mainContent #overview .centerDiv {
+#main-content #overview .center-container {
   padding-top: 210px;
 }
 
-#mainContent #overview .centerDiv p {
+#main-content #overview .center-container p {
   font-size: 16px;
 }
 
-#mainContent #overview .btn {
+#main-content #overview .btn {
   margin-top: 65px;
 }
 
-#mainContent #ownerBenefits {
+#main-content #benefits {
   padding-bottom: 0;
 }
 
-#mainContent #ownerBenefits img {
+#main-content #benefits img {
   width: 100%;
   padding-bottom: 0;
   margin-top: 55px;
 }
 
-#mainContent #rental {
+#main-content #rental {
   padding-bottom: 0;
 }
 
-#mainContent #bars img {
+#main-content #bars img {
   width: 100%;
 }
 
-#mainContent #bars img:hover {
+#main-content #bars img:hover {
   -webkit-filter: blur(2px);
           filter: blur(2px);
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
 }
 
-#mainContent #restaurant {
+#main-content #restaurant {
   padding-bottom: 45px;
 }
 
-#mainContent #restaurant p {
+#main-content #restaurant p {
   text-align: center;
 }
 
-#mainContent #spa {
+#main-content #spa {
   width: 894px;
   position: relative;
   z-index: 1;
@@ -246,7 +246,7 @@ body .cursiveFont {
   margin: auto;
 }
 
-#mainContent #spa .descriptionTitle {
+#main-content #spa .title-wrapper {
   color: white;
   background: #13322b;
   height: 65px;
@@ -254,15 +254,15 @@ body .cursiveFont {
   margin-bottom: 10px;
 }
 
-#mainContent #spa #gallery {
+#main-content #spa #gallery {
   position: relative;
 }
 
-#mainContent #spa #gallery img {
+#main-content #spa #gallery img {
   width: 100%;
 }
 
-#mainContent #spa #gallery .btn {
+#main-content #spa #gallery .btn {
   font-family: Niconne;
   position: absolute;
   z-index: 1;
@@ -270,20 +270,20 @@ body .cursiveFont {
   bottom: 25px;
 }
 
-#mainContent #spa .content-wrapper {
+#main-content #spa .content-wrapper {
   width: 100%;
   margin-top: -95px;
 }
 
-#mainContent #spa .content {
+#main-content #spa .content {
   padding: 0 30px;
 }
 
-#mainContent #spa .content-title {
+#main-content #spa .content-title {
   text-align: left;
 }
 
-#mainContent #spa .content-title .title-wrap {
+#main-content #spa .content-title .title-wrap {
   background-color: white;
   padding-top: 40px;
   display: -webkit-box;
@@ -291,57 +291,57 @@ body .cursiveFont {
   display: flex;
 }
 
-#mainContent #spa .content-title img {
+#main-content #spa .content-title img {
   width: 90px;
   height: 55px;
   padding: 0 25px;
 }
 
-#mainContent #spa .content-title h1 {
+#main-content #spa .content-title h1 {
   font-size: 36.16px;
   display: inline-block;
   margin: 20px 0 0 0;
 }
 
-#mainContent #spa .content-detail {
+#main-content #spa .content-detail {
   text-align: justify;
   padding: 45px 0 60px 0;
 }
 
-#mainContent #spa .content-detail p {
+#main-content #spa .content-detail p {
   font-size: 15.25px;
   width: 354px;
 }
 
-#mainContent #spa .content-detail div {
+#main-content #spa .content-detail div {
   padding: 0 30px;
 }
 
-#mainContent #exp {
-  background: url("img-default/landscape-xp.png") center;
+#main-content #experience {
+  background: url("img-default/landscape-exp.png") center;
   height: 806px;
   position: relative;
   margin-top: -85px;
 }
 
-#mainContent #exp .centerDiv {
+#main-content #experience .center-container {
   padding-top: 165px;
 }
 
-#mainContent #exp .centerDiv p {
+#main-content #experience .center-container p {
   font-size: 16px;
 }
 
-#mainContent #exp #links {
+#main-content #experience #links {
   margin-top: 55px;
 }
 
-#mainContent #exp #links a:hover {
+#main-content #experience #links a:hover {
   text-decoration: none;
   background: #babc33;
 }
 
-#mainContent #exp #links .btn {
+#main-content #experience #links .btn {
   font-family: Josefin Sans;
   font-size: 12px;
   border-width: 0;
@@ -349,61 +349,61 @@ body .cursiveFont {
   margin-right: 15px;
 }
 
-#mainContent #exp #sport {
+#main-content #experience #sport {
   height: 448px;
   bottom: -140px;
 }
 
-#mainContent #exp #sport #sportContent {
+#main-content #experience #sport #sport-content {
   border: 1px solid #e5e4e4;
   height: 448px;
   padding: 65px;
 }
 
-#mainContent #exp #sport #sportContent p {
+#main-content #experience #sport #sport-content p {
   margin-bottom: 40px;
 }
 
-#mainContent #exp #sport #sportContent #scrollbar {
+#main-content #experience #sport #sport-content #scrollbar {
   text-align: center;
 }
 
-#mainContent #exp #sport #sportImage img {
+#main-content #experience #sport #sport-image img {
   width: 100%;
   height: 448px;
 }
 
-#mainContent #developer {
+#main-content #developer {
   padding-bottom: 0;
 }
 
-#mainContent #developer .boxTemplate {
+#main-content #developer .box-template {
   height: 413px;
 }
 
-#mainContent #developer .imgTemplate {
+#main-content #developer .img-template {
   width: 480px;
   height: 325px;
 }
 
-#mainContent #developer .cursiveFont {
+#main-content #developer .cursive-font {
   margin-bottom: 20px;
 }
 
-#mainContent #developer #thanhDo {
+#main-content #developer #thanhdo {
   margin-bottom: 45px;
 }
 
-#mainContent #contact {
+#main-content #contact {
   padding-bottom: 0;
 }
 
-#mainContent #contact p {
+#main-content #contact p {
   text-align: center;
   margin-bottom: 30px;
 }
 
-#mainContent #contact #leftContact #info {
+#main-content #contact #left-contact #info {
   color: white;
   width: 100%;
   height: 705px;
@@ -411,31 +411,31 @@ body .cursiveFont {
   top: 0px;
 }
 
-#mainContent #contact #leftContact #info img {
+#main-content #contact #left-contact #info img {
   margin: 65px auto;
 }
 
-#mainContent #contact #leftContact #info h1 {
+#main-content #contact #left-contact #info h1 {
   font-size: 32px;
 }
 
-#mainContent #contact #leftContact #info p {
+#main-content #contact #left-contact #info p {
   margin-bottom: 20px;
 }
 
-#mainContent #contact #leftContact #info #namanLogo {
+#main-content #contact #left-contact #info #naman-Logo {
   width: 164px;
 }
 
-#mainContent #contact #leftContact #info #email {
+#main-content #contact #left-contact #info #email {
   font-size: 20px;
 }
 
-#mainContent #contact #rightContact {
+#main-content #contact #right-contact {
   background: #13322b;
 }
 
-#mainContent #contact #rightContact #social {
+#main-content #contact #right-contact #social {
   color: white;
   width: 100%;
   height: 148px;
@@ -443,23 +443,23 @@ body .cursiveFont {
   bottom: 0px;
 }
 
-#mainContent #contact #rightContact #social p {
+#main-content #contact #right-contact #social p {
   margin-bottom: 0;
 }
 
-#mainContent #contact #rightContact #social #iconBar {
+#main-content #contact #right-contact #social #icon-bar {
   margin: 40px auto;
 }
 
-#mainContent #contact #rightContact #social #iconBar a {
+#main-content #contact #right-contact #social #icon-bar a {
   margin: 0px 16px;
 }
 
-#mainContent #contact #rightContact #social #iconBar a img {
+#main-content #contact #right-contact #social #icon-bar a img {
   opacity: 0.5;
 }
 
-#mainContent #contact #rightContact #social #iconBar a img:hover {
+#main-content #contact #right-contact #social #icon-bar a img:hover {
   opacity: 1;
 }
 /*# sourceMappingURL=tablet.css.map */

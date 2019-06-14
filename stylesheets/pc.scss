@@ -3,24 +3,24 @@
 		h1 {
 			font-size: 60px;
 		}
-		.descriptionText {
+		.text-wrapper {
 			font-size: 18px;
 			padding: 0 23%;
 		}
 		.btn {
 			font-size: 24px;
 		}
-		.boxTemplate {
+		.box-template {
 			background-image: url("img-default/pattern-rental.png");
 			background-repeat: no-repeat;
 			width: 1024px;
 		}
-		.imgTemplate {
+		.img-template {
 			width: 480px;
 			height: 488px;
 		}
 	}
-	#mainNavbar {
+	#main-navbar {
 		width: 100%;
 		.navbar-brand {
 			img {
@@ -28,11 +28,11 @@
 			}
 		}
 	}
-	#mainContent {
-		#landingDiv {
+	#main-content {
+		#landing {
 			background: url("img-pc/deer-xl.png") center;
 			height: 1080px;
-			.centerDiv {
+			.center-container {
 				padding-top: 500px;
 				p {
 					font-size: 24px;
@@ -47,20 +47,20 @@
 		#overview {
 			background: url("img-pc/mountain-xl-blur.png") center no-repeat;
 			height: 828px;
-			.centerDiv {
+			.center-container {
 				padding-top: 391px;
 				p {
 					font-size: 18px;
 				}
 			}
 		}
-		#ownerBenefits {
+		#benefits {
 			img {
 				height: 638px;
 			}
 		}
 		#rental {
-			.pTemplate {
+			.p-template {
 				font-size: 17px;
 			}
 		}
@@ -73,21 +73,21 @@
 				}
 			}
 		}
-		#exp {
+		#experience {
 			background: url("img-pc/landscape-xl.png") center;
 			height: 868px;
-			.centerDiv {
+			.center-container {
 				p {
 					font-size: 17px;
 				}
 			}
 			#sport {
 				height: 512px;
-				#sportContent {
+				#sport-content {
 					// width: 1024px;
 					height: 512px;
 				}
-				#sportImage {
+				#sport-image {
 					// width: 1024px;
 					img {
 						height: 512px;
@@ -96,28 +96,28 @@
 			}
 		}
 		#developer {
-			.cursiveFont {
+			.cursive-font {
 				font-size: 36px;
 			}
-			.pTemplate {
+			.p-template {
 				font-size: 16.5px;
 			}
 		}
 		#contact {
-			#leftContact {
-				#leftContactBG {
+			#left-contact {
+				#left-contact-bg {
 					width: 100%;
 					height: 705px;
 				}
 			}
-			#rightContact {
+			#right-contact {
 				height: 705px;
 				iframe {
 					height: 621px;
 				}
 				#social {
 					height: 84px;
-					#iconBar {
+					#icon-bar {
 						margin: 30px auto;
 					}
 				}

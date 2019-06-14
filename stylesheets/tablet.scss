@@ -11,27 +11,27 @@ body {
 	hr {
 		margin: 220px auto 0 auto;
 	}
-	.fullBackground {
+	.full-background {
 		background: cover no-repeat center;
 		width: 100%;
 	}
-	.centerDiv {
-		text-align: center;
-		width: 100%;
-		position: relative;
-	}
-	.descriptionDiv {
+	.description-div {
 		color: black;
 		text-align: center;
 		background: white;
 		padding: 85px 0;
 	}
-	.descriptionTitle {
+	.center-container {
+		text-align: center;
+		width: 100%;
+		position: relative;
+	}
+	.title-wrapper {
 		font-size: 36px;
 		font-weight: 300;
 		margin-bottom: 38px;
 	}
-	.descriptionText {
+	.text-wrapper {
 		font-size: 15.25px;
 		text-align: justify;
 		padding: 0 6.5%;
@@ -42,7 +42,7 @@ body {
 		font-size: 20px;
 		border-radius: 0;
 	}
-	.boxTemplate {
+	.box-template {
 		background-color: #f5f6f6;
 		background-image: url("img-default/pattern-rental.png");
 		background-repeat: no-repeat;
@@ -51,20 +51,20 @@ body {
 		padding: 45px 65px 45px 30px;
 		margin: auto;
 	}
-	.imgTemplate {
+	.img-template {
 		float: left;
 		width: 483px;
 		height: 483px;
 		margin-right: 65px;
 	}
-	.pTemplate {
+	.p-template {
 		font-size: 13.5px;
 		text-align: justify;
 	}
 	.row {
 		margin: auto;
 	}
-	.barText {
+	.position-text {
 		font-size: 36px;
 		font-weight: 400;
 		color: white;
@@ -72,17 +72,17 @@ body {
 		bottom: 55px;
 		left: 65px;
 	}
-	.whiteBar {
+	.empty-div {
 		width: 100%;
 		height: 85px;
 		position: absolute;
 	}
-	.cursiveFont {
+	.cursive-font {
 		font-family: Niconne;
 		margin-bottom: 35px;
 	}
 }
-#mainNavbar {
+#main-navbar {
 	font-size: 14px;
 	background: white;
 	width: 100%;
@@ -106,7 +106,7 @@ body {
 			}
 		}
 	}
-	.rightLinks {
+	.right-links {
 		height: 60px;
 		font-weight: 400;
 		a {
@@ -115,7 +115,7 @@ body {
 			line-height: 60px;
 		}
 	}
-	#namanRes {
+	#naman-res {
 		font-weight: 400;
 		margin-right: 0;
 	}
@@ -130,7 +130,7 @@ body {
 			}
 		}
 	}
-	#bookNow {
+	#book-now {
 		background: #babc33;
 		a {
 			padding: 0 11px;
@@ -143,17 +143,17 @@ body {
 		}
 	}
 }
-#mainContent {
-	#landingDiv {
-		background: url("img-default/deer-background.png") center;
+#main-content {
+	#landing {
+		background: url("img-default/deer-landing.png") center;
 		height: 770px;
-		.centerDiv {
+		.center-container {
 			padding-top: 348px;
 		}
 	}
 	#destination {
 		background: #f5f6f6;
-		.descriptionText {
+		.text-wrapper {
 			padding-bottom: 65px;
 		}
 		img {
@@ -163,7 +163,7 @@ body {
 	#overview {
 		background: url("img-default/mountain-overview.png") center;
 		height: 538px;
-		.centerDiv {
+		.center-container {
 			padding-top: 210px;
 			p {
 				font-size: 16px;
@@ -173,7 +173,7 @@ body {
 			margin-top: 65px;
 		}
 	}
-	#ownerBenefits {
+	#benefits {
 		padding-bottom: 0;
 		img {
 			width: 100%;
@@ -205,7 +205,7 @@ body {
 		z-index: 1;
 		padding-bottom: 0;
 		margin: auto;
-		.descriptionTitle {
+		.title-wrapper {
 			color: white;
 			background: #13322b;
 			height: 65px;
@@ -262,12 +262,12 @@ body {
 			padding: 0 30px;
 		}
 	}
-	#exp {
-		background: url("img-default/landscape-xp.png") center;
+	#experience {
+		background: url("img-default/landscape-exp.png") center;
 		height: 806px;
 		position: relative;
 		margin-top: -85px;
-		.centerDiv {
+		.center-container {
 			padding-top: 165px;
 			p {
 				font-size: 16px;
@@ -290,7 +290,7 @@ body {
 		#sport {
 			height: 448px;
 			bottom: -140px;
-			#sportContent {
+			#sport-content {
 				border: 1px solid #e5e4e4;
 				height: 448px;
 				padding: 65px;
@@ -301,7 +301,7 @@ body {
 					text-align: center;
 				}
 			}
-			#sportImage {
+			#sport-image {
 				img {
 					width: 100%;
 					height: 448px;
@@ -311,17 +311,17 @@ body {
 	}
 	#developer {
 		padding-bottom: 0;
-		.boxTemplate {
+		.box-template {
 			height: 413px;
 		}
-		.imgTemplate {
+		.img-template {
 			width: 480px;
 			height: 325px;
 		}
-		.cursiveFont {
+		.cursive-font {
 			margin-bottom: 20px;
 		}
-		#thanhDo {
+		#thanhdo {
 			margin-bottom: 45px;
 		}
 	}
@@ -331,7 +331,7 @@ body {
 			text-align: center;
 			margin-bottom: 30px;
 		}
-		#leftContact {
+		#left-contact {
 			#info {
 				color: white;
 				width: 100%;
@@ -347,7 +347,7 @@ body {
 				p {
 					margin-bottom: 20px;
 				}
-				#namanLogo {
+				#naman-Logo {
 					width: 164px;
 				}
 				#email {
@@ -355,7 +355,7 @@ body {
 				}
 			}
 		}
-		#rightContact {
+		#right-contact {
 			background: #13322b;
 			#social {
 				color: white;
@@ -366,7 +366,7 @@ body {
 				p {
 					margin-bottom: 0;
 				}
-				#iconBar {
+				#icon-bar {
 					margin: 40px auto;
 					a {
 						margin: 0px 16px;

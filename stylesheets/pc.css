@@ -2,100 +2,100 @@
   body h1 {
     font-size: 60px;
   }
-  body .descriptionText {
+  body .text-wrapper {
     font-size: 18px;
     padding: 0 23%;
   }
   body .btn {
     font-size: 24px;
   }
-  body .boxTemplate {
+  body .box-template {
     background-image: url("img-default/pattern-rental.png");
     background-repeat: no-repeat;
     width: 1024px;
   }
-  body .imgTemplate {
+  body .img-template {
     width: 480px;
     height: 488px;
   }
-  #mainNavbar {
+  #main-navbar {
     width: 100%;
   }
-  #mainNavbar .navbar-brand img {
+  #main-navbar .navbar-brand img {
     margin: 0 320px 0 45px;
   }
-  #mainContent #landingDiv {
+  #main-content #landing {
     background: url("img-pc/deer-xl.png") center;
     height: 1080px;
   }
-  #mainContent #landingDiv .centerDiv {
+  #main-content #landing .center-container {
     padding-top: 500px;
   }
-  #mainContent #landingDiv .centerDiv p {
+  #main-content #landing .center-container p {
     font-size: 24px;
   }
-  #mainContent #destination img {
+  #main-content #destination img {
     width: 54%;
   }
-  #mainContent #overview {
+  #main-content #overview {
     background: url("img-pc/mountain-xl-blur.png") center no-repeat;
     height: 828px;
   }
-  #mainContent #overview .centerDiv {
+  #main-content #overview .center-container {
     padding-top: 391px;
   }
-  #mainContent #overview .centerDiv p {
+  #main-content #overview .center-container p {
     font-size: 18px;
   }
-  #mainContent #ownerBenefits img {
+  #main-content #benefits img {
     height: 638px;
   }
-  #mainContent #rental .pTemplate {
+  #main-content #rental .p-template {
     font-size: 17px;
   }
-  #mainContent #spa {
+  #main-content #spa {
     width: 1024px;
   }
-  #mainContent #spa .content-detail p {
+  #main-content #spa .content-detail p {
     font-size: 18px;
     width: 415px;
   }
-  #mainContent #exp {
+  #main-content #experience {
     background: url("img-pc/landscape-xl.png") center;
     height: 868px;
   }
-  #mainContent #exp .centerDiv p {
+  #main-content #experience .center-container p {
     font-size: 17px;
   }
-  #mainContent #exp #sport {
+  #main-content #experience #sport {
     height: 512px;
   }
-  #mainContent #exp #sport #sportContent {
+  #main-content #experience #sport #sport-content {
     height: 512px;
   }
-  #mainContent #exp #sport #sportImage img {
+  #main-content #experience #sport #sport-image img {
     height: 512px;
   }
-  #mainContent #developer .cursiveFont {
+  #main-content #developer .cursive-font {
     font-size: 36px;
   }
-  #mainContent #developer .pTemplate {
+  #main-content #developer .p-template {
     font-size: 16.5px;
   }
-  #mainContent #contact #leftContact #leftContactBG {
+  #main-content #contact #left-contact #left-contact-bg {
     width: 100%;
     height: 705px;
   }
-  #mainContent #contact #rightContact {
+  #main-content #contact #right-contact {
     height: 705px;
   }
-  #mainContent #contact #rightContact iframe {
+  #main-content #contact #right-contact iframe {
     height: 621px;
   }
-  #mainContent #contact #rightContact #social {
+  #main-content #contact #right-contact #social {
     height: 84px;
   }
-  #mainContent #contact #rightContact #social #iconBar {
+  #main-content #contact #right-contact #social #icon-bar {
     margin: 30px auto;
   }
 }
