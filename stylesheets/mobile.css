@@ -31,8 +31,11 @@
   #main-content #landing {
     background-position: center;
   }
+  #main-content #destination img {
+    width: 600px;
+  }
   #main-content #overview {
-    background: url("img-mobile/overview-xs.png") center;
+    background: url("img-mobile/overview-xs.png") cover center no-repeat;
     height: 400px;
   }
   #main-content #overview .center-container {

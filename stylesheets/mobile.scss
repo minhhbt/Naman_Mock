@@ -39,8 +39,13 @@
 		#landing {
 			background-position: center;
 		}
+		#destination {
+			img {
+				width: 600px;
+			}
+		}
 		#overview {
-			background: url("img-mobile/overview-xs.png") center;
+			background: url("img-mobile/overview-xs.png") cover center no-repeat;
 			height: 400px;
 			.center-container {
 				padding-top: 185px;
@@ -52,17 +57,6 @@
 				}
 			}
 		}
-		// #villas {
-		// 	padding: 210px 0 0 0;
-		// 	img {
-		// 		width: 100%;
-		// 	}
-		// 	.position-text {
-		// 		font-family: Niconne;
-		// 		bottom: 30px;
-		// 		left: 270px;
-		// 	}
-		// }
 		#benefits {
 			img {
 				width: 100%;

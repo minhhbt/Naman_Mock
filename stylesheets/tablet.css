@@ -185,7 +185,7 @@ body .cursive-font {
 }
 
 #main-content #destination img {
-  width: 87%;
+  width: 894px;
 }
 
 #main-content #overview {
@@ -205,6 +205,28 @@ body .cursive-font {
   margin-top: 65px;
 }
 
+#main-content #villas {
+  padding: 210px 0 0 0;
+}
+
+#main-content #villas img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: center;
+     object-fit: center;
+}
+
+#main-content #villas .position-text {
+  font-family: Niconne;
+  text-align: center;
+  display: block;
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 #main-content #benefits {
   padding-bottom: 0;
 }
@@ -221,13 +243,6 @@ body .cursive-font {
 
 #main-content #bars img {
   width: 100%;
-}
-
-#main-content #bars img:hover {
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
 }
 
 #main-content #restaurant {
@@ -408,7 +423,7 @@ body .cursive-font {
 #main-content #contact #left-contact #info {
   color: white;
   width: 100%;
-  height: 705px;
+  height: 100%;
   position: absolute;
   top: 0px;
 }
