@@ -42,7 +42,7 @@ body .title-wrapper {
 body .text-wrapper {
   font-size: 15.25px;
   text-align: justify;
-  padding: 0 6.5%;
+  width: 894px;
   margin: auto;
 }
 
@@ -350,13 +350,12 @@ body .cursive-font {
 }
 
 #main-content #experience #sport {
-  height: 448px;
-  bottom: -140px;
+  height: auto;
+  bottom: -170px;
 }
 
 #main-content #experience #sport #sport-content {
   border: 1px solid #e5e4e4;
-  height: 448px;
   padding: 65px;
 }
 
@@ -370,7 +369,9 @@ body .cursive-font {
 
 #main-content #experience #sport #sport-image img {
   width: 100%;
-  height: 448px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #main-content #developer {
@@ -387,6 +388,7 @@ body .cursive-font {
 }
 
 #main-content #developer .cursive-font {
+  text-align: left;
   margin-bottom: 20px;
 }
 

@@ -1,7 +1,17 @@
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 415px) {
+	body {
+		.text-wrapper {
+			width: 310px;
+		}
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 945px) {
 	body {
 		hr {
 			margin: 610px auto 0 auto;
+		}
+		.text-wrapper {
+			width: 586px;
 		}
 		.box-template {
 			background-image: url("img-mobile/pattern-xs.png");
@@ -42,17 +52,17 @@
 				}
 			}
 		}
-		#villas {
-			padding: 210px 0 0 0;
-			img {
-				width: 100%;
-			}
-			.position-text {
-				font-family: Niconne;
-				bottom: 30px;
-				left: 270px;
-			}
-		}
+		// #villas {
+		// 	padding: 210px 0 0 0;
+		// 	img {
+		// 		width: 100%;
+		// 	}
+		// 	.position-text {
+		// 		font-family: Niconne;
+		// 		bottom: 30px;
+		// 		left: 270px;
+		// 	}
+		// }
 		#benefits {
 			img {
 				width: 100%;
@@ -91,16 +101,7 @@
 		}
 		#experience {
 			#sport {
-				height: 766px;
 				bottom: -530px;
-				#sport-content {
-					height: 406px;
-				}
-				#sport-image {
-					img {
-						height: 360px;
-					}
-				}
 			}
 		}
 		#developer {

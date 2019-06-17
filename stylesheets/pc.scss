@@ -1,11 +1,11 @@
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1085px) and (max-width: 1920px) {
 	body {
 		h1 {
 			font-size: 60px;
 		}
 		.text-wrapper {
 			font-size: 18px;
-			padding: 0 23%;
+			width: 1024px;
 		}
 		.btn {
 			font-size: 24px;
@@ -82,17 +82,7 @@
 				}
 			}
 			#sport {
-				height: 512px;
-				#sport-content {
-					// width: 1024px;
-					height: 512px;
-				}
-				#sport-image {
-					// width: 1024px;
-					img {
-						height: 512px;
-					}
-				}
+				bottom: -130px;
 			}
 		}
 		#developer {

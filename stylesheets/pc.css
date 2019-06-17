@@ -1,10 +1,10 @@
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1085px) and (max-width: 1920px) {
   body h1 {
     font-size: 60px;
   }
   body .text-wrapper {
     font-size: 18px;
-    padding: 0 23%;
+    width: 1024px;
   }
   body .btn {
     font-size: 24px;
@@ -68,13 +68,7 @@
     font-size: 17px;
   }
   #main-content #experience #sport {
-    height: 512px;
-  }
-  #main-content #experience #sport #sport-content {
-    height: 512px;
-  }
-  #main-content #experience #sport #sport-image img {
-    height: 512px;
+    bottom: -130px;
   }
   #main-content #developer .cursive-font {
     font-size: 36px;
