@@ -21,9 +21,6 @@
   #main-navbar {
     width: 100%;
   }
-  #main-navbar .navbar-brand img {
-    margin: 0 320px 0 45px;
-  }
   #main-content #landing {
     background: url("img-pc/deer-xl.png") center;
     height: 1080px;
